@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Wei Xu | 徐伟"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Contact"
+        href: contact.qmd
+  page-footer:
+    center: "© 2025 Wei Xu | 徐伟"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
