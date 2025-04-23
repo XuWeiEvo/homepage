@@ -12,6 +12,8 @@ website:
         href: cv.qmd
       - text: "Publications"
         href: publications.qmd
+      - text: "Data and Code"
+        href: DataCode.qmd
       - text: "Contact"
         href: contact.qmd
   page-footer:

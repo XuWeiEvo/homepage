@@ -12,8 +12,6 @@ website:
         href: cv.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Research"
-        href: research.qmd
       - text: "Contact"
         href: contact.qmd
   page-footer:

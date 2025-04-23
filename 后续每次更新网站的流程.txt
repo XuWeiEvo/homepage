@@ -1,0 +1,8 @@
+# 修改后重新渲染
+quarto render
+
+# 然后推送
+git add .
+git commit -m "update something"
+git push
+网站几秒钟后就会自动更新！

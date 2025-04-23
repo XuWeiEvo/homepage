@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Hi! I’m Wei Xu, a researcher working on tropical rainforest biodiversity and conservation…"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "publications.html",
+    "href": "publications.html",
     "title": "Wei Xu | 徐伟",
     "section": "",
-    "text": "Hi, this is the webpage of Wei Xu, currentl a postdoc researcher in IRD Montpellier, France, working on the diversity and conservation of tropical rain forest (Annonaceae family) on global scale."
+    "text": "Wei Xu, Yun-He Wu, Wei-Wei Zhou et al. (2024) Hidden hotspots of amphibian biodiversity in China. PNAS, 121(20), e2320674121.\n\n\nWei Xu, Wen-Jie Dong and Ting-Ting Fu et al. (2020). Herpetological phylogeographic analyses support a Miocene focal point of Himalayan uplift and biological diversification. National Science Review, 8(9), nwaa263. (ESI Highly Cited Paper by Web of Science)\n\n\nWei, Xu, and Jing CHE. (2019). From cryptic species to biodiversity conservation in China: Status and prospects. Scientia Sinica Vitae 49.4: 519–530.\n\n\nZhi-Yong Yuan, Dong-Yi Wu, Yang Wen, Wei Xu, …, Heng Xiao, Jing Che. (2022). Historical mitochondrial genome introgression confounds species delimitation- evidence from phylogenetic inference of the O. grahami complex. Current Zoology, zoac010.\n\n\nWei Gao, Yan-Bo Sun, Wei-Wei Zhou, Zi-Jun Xiong, Luonan Chen, Hong Li, Ting-Ting Fu, Kai Xu, Wei Xu, …, David M. Hillis, Xiang Ji, Ya-Ping Zhang, and Jing Che. (2019). Genomic and transcriptomic investigations of the evolutionary transition from oviparity to viviparity. PNAS, 116(9), 3646–3655.\n\n\nFang, Yan, Jingcai Lü, Baolin Zhang, Zhiyong Yuan, Haipeng Zhao, Song Huang, Gang Wei, Xue Mi, Dahu Zou, Wei Xu, …, Robert W. Murphy, Yaping Zhang, and Jing Che. (2018). The Chinese giant salamander exemplifies the hidden extinction of cryptic species. Current Biology, 28(10), R590–R592.\n\n\nKaruno Alex, Xue Mi, Chen Youhua, Da-Hu Zou, Wei Gao, Bao-Lin Zhang, Wei Xu, Jie-Qiong Jin, Wen-Jing Shen, Song Huang, Wei-Wei Zhou, Jing Che. (2023). Resilience of Herpetofauna diversity under adverse impacts of Climate Change in Qinghai-Tibetan Plateau (QTP). Conservation Biology. 37(6), e14155.\n\n\nWang Hualing, Shilong Geng, Shusheng Liu, Zhongtao Li, Stephen Cameron, Teng Lei, Wei Xu et al. (2025) Unraveling the cryptic Bemisia tabaci species complex: Global phylogenomic analysis reveals evolutionary relationships and biogeographic patterns. Insect Science. 0, 1–23."
+  },
+  {
+    "objectID": "DataCode.html",
+    "href": "DataCode.html",
+    "title": "Wei Xu | 徐伟",
+    "section": "",
+    "text": "Email: xuwei.evo@gmail.com; wei.xu@ird.fr"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Wei Xu | 徐伟",
+    "section": "",
+    "text": "Email: xuwei.evo@gmail.com; wei.xu@ird.fr"
   },
   {
     "objectID": "cv.html",
@@ -21,17 +28,10 @@
     "text": "Wei Xu \n\n\nSenior postdoctoral researcher\n\n\nTropical Biodiversity Evolution lab, DIADE, Université Montpellier, CIRAD, IRD, Montpellier, France\n\n\nE-mail: xuwei.evo@gmail.com\n\n\nResearchGate: https://www.researchgate.net/profile/Xu-Wei-9\n\n\n\nEducation and Employment:\n\n\n2024–February 2026, Senior Postdoctoral researcher, Tropical Biodiversity Evolution lab, DIADE, Université Montpellier, CIRAD, IRD, Montpellier, France\n\n\n2022–2024: Assistant researcher, Kunming Institute of Zoology, Chinese Academy of Sciences\n\n\n2016–2021: Kunming Institute of Zoology, Chinese Academy of Sciences (GPA: 3.7/4.0), PhD, Zoology\n\n\n2012–2016: Southern Medical University, Bachelor of Biotechnology\n\n\nSkills:\n\n\n\n\n\nExtensive experience in applying integrative phylogenetic approaches, spatial methods, and large datasets (including distribution data, molecular data, ecological data, etc.) to address fundamental conceptual questions in evolutionary biology. My expertise includes analyzing diversity patterns on a large geographic scale, modeling species distribution, reconstructing mega-phylogenies, investigating biogeographic history, studying population genetics;\n\n\n\n\nComputer skills: Linux; Perl; R; ArcGIS;\n\n\n\n\nProficient in basic molecular experimental techniques, such as DNA extraction and PCR.\n\n\n\n\n\nResearch interests:\n\n\nMacro-ecology, macro-evolution, and conservation; Diversity patterns and responses to climate change; Phylogenetic and functional diversity.\n\n\nFieldwork:\n\n\n2016–2018, North and Southwest of Qinghai-Tibetan Plateau, China. Collecting amphibians and reptiles.\n\n\n2018, Huangshan Mountains, China. Collecting amphibians.\n\n\n2017, Chitwan National Park, Nepal. Collecting amphibians and reptiles.\n\n\nSupervision and training:\n\n\nGuiding two PhD students in 2022.\n\n\n2018, Conducting molecular experiment training in Sino-Africa Joint Research Center, Chinese Academy of Science, Nairobi, Kenya.\n\n\nPlenary/Keynote Conference presentations:\n\n\nWei Xu. Functional Trait, Diversity Patterns and Conservation of Annonaceae: a representative of Tropical Rain Forests. XX INTERNATIONAL BOTANICAL CONGRESS, July 2024.\n\n\nWei Xu. Reptiles and Amphibians Record Complex History of the Himalaya. The 2nd AsiaEvo Conference, August 2021.\n\n\nWei Xu. Genome-wide data help to unveil true landscape of biodiversity masked by cryptic species: A case study about Asian horned toad (Amphibia: Megophryidae) in the southeast China. The 24th Academic Annual Meeting of China Zoology Society, August 2019."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Wei Xu | 徐伟",
     "section": "",
-    "text": "Wei Xu, Yun-He Wu, Wei-Wei Zhou et al. (2024) Hidden hotspots of amphibian biodiversity in China. PNAS, 121(20), e2320674121.\n\n\nWei Xu, Wen-Jie Dong and Ting-Ting Fu et al. (2020). Herpetological phylogeographic analyses support a Miocene focal point of Himalayan uplift and biological diversification. National Science Review, 8(9), nwaa263. (ESI Highly Cited Paper by Web of Science)\n\n\nWei, Xu, and Jing CHE. (2019). From cryptic species to biodiversity conservation in China: Status and prospects. Scientia Sinica Vitae 49.4: 519–530.\n\n\nZhi-Yong Yuan, Dong-Yi Wu, Yang Wen, Wei Xu, …, Heng Xiao, Jing Che. (2022). Historical mitochondrial genome introgression confounds species delimitation- evidence from phylogenetic inference of the O. grahami complex. Current Zoology, zoac010.\n\n\nWei Gao, Yan-Bo Sun, Wei-Wei Zhou, Zi-Jun Xiong, Luonan Chen, Hong Li, Ting-Ting Fu, Kai Xu, Wei Xu, …, David M. Hillis, Xiang Ji, Ya-Ping Zhang, and Jing Che. (2019). Genomic and transcriptomic investigations of the evolutionary transition from oviparity to viviparity. PNAS, 116(9), 3646–3655.\n\n\nFang, Yan, Jingcai Lü, Baolin Zhang, Zhiyong Yuan, Haipeng Zhao, Song Huang, Gang Wei, Xue Mi, Dahu Zou, Wei Xu, …, Robert W. Murphy, Yaping Zhang, and Jing Che. (2018). The Chinese giant salamander exemplifies the hidden extinction of cryptic species. Current Biology, 28(10), R590–R592.\n\n\nKaruno Alex, Xue Mi, Chen Youhua, Da-Hu Zou, Wei Gao, Bao-Lin Zhang, Wei Xu, Jie-Qiong Jin, Wen-Jing Shen, Song Huang, Wei-Wei Zhou, Jing Che. (2023). Resilience of Herpetofauna diversity under adverse impacts of Climate Change in Qinghai-Tibetan Plateau (QTP). Conservation Biology. 37(6), e14155.\n\n\nWang Hualing, Shilong Geng, Shusheng Liu, Zhongtao Li, Stephen Cameron, Teng Lei, Wei Xu et al. (2025) Unraveling the cryptic Bemisia tabaci species complex: Global phylogenomic analysis reveals evolutionary relationships and biogeographic patterns. Insect Science. 0, 1–23."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Wei Xu | 徐伟",
-    "section": "",
-    "text": "Email: xuwei.evo@gmail.com; wei.xu@ird.fr"
+    "text": "Hi, this is the webpage of Wei Xu, currentl a postdoc researcher in IRD Montpellier, France, working on the diversity and conservation of tropical rain forest (Annonaceae family) on global scale."
   }
 ]
