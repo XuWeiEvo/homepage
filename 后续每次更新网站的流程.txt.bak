@@ -5,7 +5,7 @@ quarto render
 
 # 然后推送
 git add .
-git commit -m "update something" # 引号里的内容只是给自己看的备注
+git commit -m "update something"
 git push
 
 # 网站几秒钟后就会自动更新！
