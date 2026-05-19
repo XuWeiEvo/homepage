@@ -1,11 +1,13 @@
 # 先修改各种qmd文件
+# 如果需要新增标签页，只需要新增加一个qmd文件，然后在_quarto.yml里设置标签页顺序即可
+
 
 # 修改后重新渲染
 quarto render
 
 # 然后推送
 git add .
-git commit -m "update something"
+git commit -m "update something" # 引号里的内容只是给自己看的备注
 git push
 
 # 网站几秒钟后就会自动更新！
