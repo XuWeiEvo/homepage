@@ -1,0 +1,12 @@
+---
+title: "Global Biodiversity Database Inventory"
+format: html
+---
+
+## 📊 数据库列表
+
+| 数据库名称 | 链接 | 描述 |
+|-----------|------|------|
+| GBIF | https://www.gbif.org | 全球生物多样性信息设施 |
+| NCBI Taxonomy | https://www.ncbi.nlm.nih.gov/taxonomy | 物种分类数据库 |
+| AmphibiaChina | https://www.amphibiachina.org/ | 中国两栖类 |

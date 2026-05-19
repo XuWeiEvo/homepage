@@ -16,6 +16,8 @@ website:
         href: DataCode.qmd
       - text: "Contact"
         href: contact.qmd
+      - text: "Global Biodiversity Database Inventory"
+        href: global-biodiversity.qmd
   page-footer:
     center: "© 2025 Wei Xu | 徐伟"
 
