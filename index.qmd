@@ -91,7 +91,7 @@ pagetitle: "Wei Xu | 徐伟"
   </div>
 </div>
 
-<p class="wx-section-label">Selected recent work</p>
+<p class="wx-section-label">Recent work</p>
 
 <ul class="wx-highlights">
   <li><span class="wx-venue">bioRxiv 2026</span><span><strong>BioGeoSyn</strong> — a graphical software for reproducible biogeographic analyses and cross-clade synthesis.</span></li>

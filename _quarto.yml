@@ -6,6 +6,7 @@ website:
   title: "Wei Xu | 徐伟"
   description: "Macroevolution, macroecology and conservation — Wei Xu, Tel Aviv University."
   favicon: favicon.svg
+  search: false
   navbar:
     pinned: true
     title: false

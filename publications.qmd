@@ -5,8 +5,7 @@ toc-depth: 2
 ---
 
 ::: {.wx-lead}
-My name is set in **bold**. Metrics from Google Scholar, July 2026; the
-continuously updated record lives on [ORCID](https://orcid.org/0000-0002-4184-3982).
+My name is set in **bold**. Bibliometrics as of July 2026.
 :::
 
 <div class="wx-metrics">
@@ -14,12 +13,6 @@ continuously updated record lives on [ORCID](https://orcid.org/0000-0002-4184-39
   <div><span class="wx-metric-v">8</span><span class="wx-metric-k">h-index</span></div>
   <div><span class="wx-metric-v">7</span><span class="wx-metric-k">i10-index</span></div>
   <div><span class="wx-metric-v">1</span><span class="wx-metric-k">ESI highly cited</span></div>
-</div>
-
-<div class="wx-actions">
-  <a class="wx-btn" href="https://orcid.org/0000-0002-4184-3982">ORCID</a>
-  <a class="wx-btn" href="https://scholar.google.com/citations?hl=en&amp;user=YOxNTyAAAAAJ">Google Scholar</a>
-  <a class="wx-btn" href="https://www.researchgate.net/profile/Wei-Xu-312">ResearchGate</a>
 </div>
 
 ::: {.wx-pubs}
