@@ -61,7 +61,7 @@ pagetitle: "Wei Xu | 徐伟"
 <p class="wx-section-label">Bibliometrics</p>
 
 <div class="wx-metrics">
-  <div><span class="wx-metric-v">16</span><span class="wx-metric-k">Publications</span></div>
+  <div><span class="wx-metric-v">13</span><span class="wx-metric-k">Peer-reviewed papers</span></div>
   <div><span class="wx-metric-v">517</span><span class="wx-metric-k">Citations</span></div>
   <div><span class="wx-metric-v">8</span><span class="wx-metric-k">h-index</span></div>
 </div>

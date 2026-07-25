@@ -412,6 +412,26 @@ main.content {
   border-bottom-color: var(--wx-ochre);
 }
 
+/* corresponding-author marker */
+.wx-corr {
+  color: var(--wx-ochre);
+  font-size: 0.68em;
+  margin-left: 0.18em;
+  vertical-align: super;
+  line-height: 0;
+}
+
+.wx-legend {
+  font-size: 0.82rem;
+  color: var(--wx-muted);
+  margin: 0.4rem 0 0;
+}
+
+.wx-legend .wx-corr {
+  vertical-align: baseline;
+  font-size: 0.85em;
+}
+
 .wx-flag {
   display: inline-block;
   font-size: 0.68rem;

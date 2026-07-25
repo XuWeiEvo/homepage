@@ -8,12 +8,15 @@ toc-depth: 2
 My name is set in **bold**.
 :::
 
+<p class="wx-legend"><i class="bi bi-envelope-fill wx-corr"></i> corresponding author</p>
+
 ::: {.wx-pubs}
 
 ## Preprints
 
 ::: {.wx-pub}
-**Xu, W.** & Wu, Y.-H. (2026). [BioGeoSyn: a graphical software for reproducible
+**Xu, W.**<i class="bi bi-envelope-fill wx-corr" title="Corresponding author"></i>
+& Wu, Y.-H. (2026). [BioGeoSyn: a graphical software for reproducible
 biogeographic analyses and cross-clade synthesis of biogeographic
 events.]{.wx-title} [bioRxiv]{.wx-journal}.
 [doi:10.64898/2026.07.21.739740](https://doi.org/10.64898/2026.07.21.739740){.wx-doi}
@@ -31,8 +34,9 @@ Annonaceae species worldwide.]{.wx-title} [Research Square]{.wx-journal}.
 ## 2026
 
 ::: {.wx-pub}
-Wu, Y.-H., Zhang, D., Shen, W., Zhang, T., Kilunda, F. K. & **Xu, W.** (2026).
-[Stop the biodiversity sampling arms race.]{.wx-title} [Science]{.wx-journal},
+Wu, Y.-H., Zhang, D., Shen, W., Zhang, T., Kilunda, F. K. &
+**Xu, W.**<i class="bi bi-envelope-fill wx-corr" title="Corresponding author"></i>
+(2026). [Stop the biodiversity sampling arms race.]{.wx-title} [Science]{.wx-journal},
 393(6806), 46.
 [doi:10.1126/science.aei5413](https://doi.org/10.1126/science.aei5413){.wx-doi}
 :::
@@ -49,7 +53,9 @@ Couvreur, T. L. P. (2026). [Diversity, distribution and conservation of Annonace
 
 ::: {.wx-pub}
 Wu, D., Prendini, E., Raxworthy, C. J., Wang, Z., Zhou, W., Chen, J.,
-Suwannapoom, C., Sucharitakul, P., Pie, M. R., **Xu, W.** & Yuan, Z. (2025).
+Suwannapoom, C., Sucharitakul, P., Pie, M. R.,
+**Xu, W.**<i class="bi bi-envelope-fill wx-corr" title="Corresponding author"></i>
+& Yuan, Z. (2025).
 [Earth history and trait innovation drive the global radiation of modern
 toads.]{.wx-title} [Proceedings of the Royal Society B]{.wx-journal}, 292(2057),
 20251928.
