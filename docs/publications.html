@@ -24,22 +24,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-b719d3d4935f2b08311a76135e2bf442.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b719d3d4935f2b08311a76135e2bf442.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-c8b544e1eab81f7563542c0a8b71d1e9.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b719d3d4935f2b08311a76135e2bf442.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6b625cd15191484d03ea45227e0a4330.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-d7fe2ebfe43796dfe372235e0d0e75f2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-6b625cd15191484d03ea45227e0a4330.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,9 +73,170 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    window.setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      window.setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    window.hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(darkModeDefault) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const darkModeDefault = false;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !window.hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+    };
+    // Switch to dark mode if need be
+    if (window.hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -93,28 +258,46 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./publications.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./DataCode.html"> 
-<span class="menu-text">Data and Code</span></a>
+<span class="menu-text">Data &amp; Code</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./global-biodiversity.html"> 
+<span class="menu-text">Databases</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./global-biodiversity.html"> 
-<span class="menu-text">Global Biodiversity Database Inventory</span></a>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/XuWeiEvo"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?hl=en&amp;user=YOxNTyAAAAAJ"> <i class="bi bi-mortarboard-fill" role="img" aria-label="Google Scholar">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:xuwei.evo@gmail.com"> <i class="bi bi-envelope" role="img" aria-label="E-mail">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -127,43 +310,141 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Publications</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<blockquote class="blockquote">
-<p>
-<strong>Wei Xu</strong>, Yun-He Wu, Wei-Wei Zhou et al.&nbsp;(2024) Hidden hotspots of amphibian biodiversity in China. <em><strong>PNAS</strong></em>, 121(20), e2320674121.
-</p>
-<p>
-<strong>Wei Xu</strong>, Wen-Jie Dong and Ting-Ting Fu et al.&nbsp;(2020). Herpetological phylogeographic analyses support a Miocene focal point of Himalayan uplift and biological diversification. <em><strong>National Science Review</strong></em>, 8(9), nwaa263. (<strong>ESI Highly Cited Paper by Web of Science</strong>)
-</p>
-<p>
-<strong>Wei, Xu</strong>, and Jing CHE. (2019). From cryptic species to biodiversity conservation in China: Status and prospects. <em><strong>Scientia Sinica Vitae</strong></em> 49.4: 519–530.
-</p>
-<p>
-Zhi-Yong Yuan, Dong-Yi Wu, Yang Wen, <strong>Wei Xu</strong>, …, Heng Xiao, Jing Che. (2022). Historical mitochondrial genome introgression confounds species delimitation- evidence from phylogenetic inference of the <em>O. grahami</em> complex. <em><strong>Current Zoology</strong></em>, zoac010.
-</p>
-<p>
-Wei Gao, Yan-Bo Sun, Wei-Wei Zhou, Zi-Jun Xiong, Luonan Chen, Hong Li, Ting-Ting Fu, Kai Xu, <strong>Wei Xu</strong>, …, David M. Hillis, Xiang Ji, Ya-Ping Zhang, and Jing Che. (2019). Genomic and transcriptomic investigations of the evolutionary transition from oviparity to viviparity. <em><strong>PNAS</strong></em>, 116(9), 3646–3655.
-</p>
-<p>
-Fang, Yan, Jingcai Lü, Baolin Zhang, Zhiyong Yuan, Haipeng Zhao, Song Huang, Gang Wei, Xue Mi, Dahu Zou, <strong>Wei Xu</strong>, …, Robert W. Murphy, Yaping Zhang, and Jing Che. (2018). The Chinese giant salamander exemplifies the hidden extinction of cryptic species. <em><strong>Current Biology</strong></em>, 28(10), R590–R592.
-</p>
-<p>
-Karuno Alex, Xue Mi, Chen Youhua, Da-Hu Zou, Wei Gao, Bao-Lin Zhang, <strong>Wei Xu</strong>, Jie-Qiong Jin, Wen-Jing Shen, Song Huang, Wei-Wei Zhou, Jing Che. (2023). Resilience of Herpetofauna diversity under adverse impacts of Climate Change in Qinghai-Tibetan Plateau (QTP). <em><strong>Conservation Biology</strong></em>. 37(6), e14155.
-</p>
-<p>
-Wang Hualing, Shilong Geng, Shusheng Liu, Zhongtao Li, Stephen Cameron, Teng Lei, <strong>Wei Xu</strong> et al.&nbsp;(2025) Unraveling the cryptic <em>Bemisia tabaci</em> species complex: Global phylogenomic analysis reveals evolutionary relationships and biogeographic patterns. <em><strong>Insect Science</strong></em>. 0, 1–23.
-</p>
-</blockquote>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="wx-lead">
+<p>My name is set in <strong>bold</strong>. Metrics from Google Scholar, July 2026; the continuously updated record lives on <a href="https://orcid.org/0000-0002-4184-3982">ORCID</a>.</p>
+</div>
+<div class="wx-metrics">
+<div>
+<span class="wx-metric-v">517</span><span class="wx-metric-k">Citations</span>
+</div>
+<div>
+<span class="wx-metric-v">8</span><span class="wx-metric-k">h-index</span>
+</div>
+<div>
+<span class="wx-metric-v">7</span><span class="wx-metric-k">i10-index</span>
+</div>
+<div>
+<span class="wx-metric-v">1</span><span class="wx-metric-k">ESI highly cited</span>
+</div>
+</div>
+<div class="wx-actions">
+<p><a class="wx-btn" href="https://orcid.org/0000-0002-4184-3982">ORCID</a> <a class="wx-btn" href="https://scholar.google.com/citations?hl=en&amp;user=YOxNTyAAAAAJ">Google Scholar</a> <a class="wx-btn" href="https://www.researchgate.net/profile/Wei-Xu-312">ResearchGate</a></p>
+</div>
+<div class="wx-pubs">
+<section id="preprints" class="level2">
+<h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
+<div class="wx-pub">
+<p><strong>Xu, W.</strong> &amp; Wu, Y.-H. (2026). <span class="wx-title">BioGeoSyn: a graphical software for reproducible biogeographic analyses and cross-clade synthesis of biogeographic events.</span> <span class="wx-journal">bioRxiv</span>. <a href="https://doi.org/10.64898/2026.07.21.739740" class="wx-doi">doi:10.64898/2026.07.21.739740</a> · <a href="https://github.com/XuWeiEvo/BioGeoSyn" class="wx-doi">GitHub</a></p>
+</div>
+<div class="wx-pub">
+<p>Cabral, A., Couvreur, T. L. P., Sauquet, H., Petrocelli, I., Rodrigues-Vaz, C., Lozinguez, A., <strong>Xu, W.</strong>, Orellana-Vera, G. &amp; Onstein, R. E. (2026). <span class="wx-title">AnnonFruitTraits 1.0, a comprehensive dataset on frugivory-related traits for Annonaceae species worldwide.</span> <span class="wx-journal">Research Square</span>. <a href="https://doi.org/10.21203/rs.3.rs-10084032/v1" class="wx-doi">doi:10.21203/rs.3.rs-10084032/v1</a></p>
+</div>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2026</h2>
+<div class="wx-pub">
+<p>Wu, Y.-H., Zhang, D., Shen, W., Zhang, T., Kilunda, F. K. &amp; <strong>Xu, W.</strong> (2026). <span class="wx-title">Stop the biodiversity sampling arms race.</span> <span class="wx-journal">Science</span>, 393(6806), 46. <a href="https://doi.org/10.1126/science.aei5413" class="wx-doi">doi:10.1126/science.aei5413</a></p>
+</div>
+<div class="wx-pub">
+<p>Ravomanana, E. O., <strong>Xu, W.</strong>, Rakotoarinivo, M., Rafidison, V. M. &amp; Couvreur, T. L. P. (2026). <span class="wx-title">Diversity, distribution and conservation of Annonaceae (Magnoliales) in Madagascar.</span> <span class="wx-journal">Biological Conservation</span>, 316, 111778. <a href="https://doi.org/10.1016/j.biocon.2026.111778" class="wx-doi">doi:10.1016/j.biocon.2026.111778</a></p>
+</div>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2025</h2>
+<div class="wx-pub">
+<p>Wu, D., Prendini, E., Raxworthy, C. J., Wang, Z., Zhou, W., Chen, J., Suwannapoom, C., Sucharitakul, P., Pie, M. R., <strong>Xu, W.</strong> &amp; Yuan, Z. (2025). <span class="wx-title">Earth history and trait innovation drive the global radiation of modern toads.</span> <span class="wx-journal">Proceedings of the Royal Society B</span>, 292(2057), 20251928. <a href="https://doi.org/10.1098/rspb.2025.1928" class="wx-doi">doi:10.1098/rspb.2025.1928</a></p>
+</div>
+<div class="wx-pub">
+<p>Lu, C., Ding, W., <strong>Xu, W.</strong>, Li, Q., He, S.-W., Wu, F., Dong, W., Jin, J.-Q., Dong, F., Jiang, X.-L., Wang, K., Guo, P., Murphy, R. W., Zhang, Y.-P. &amp; Che, J. (2025). <span class="wx-title">Contrasting evolutionary trajectories of terrestrial vertebrates in the Hengduan Mountains hotspot.</span> <span class="wx-journal">National Science Review</span>, 12(8), nwaf157. <a href="https://doi.org/10.1093/nsr/nwaf157" class="wx-doi">doi:10.1093/nsr/nwaf157</a></p>
+</div>
+<div class="wx-pub">
+<p>Liu, N.-Y., Chen, L., <strong>Xu, W.</strong> &amp; Wu, Y.-H. (2025). <span class="wx-title">Morphological and molecular evidence reveal a new Asian leaf litter toad of the genus <em>Leptobrachella</em> Smith, 1925 (Anura, Megophryidae) from the northeastern hills of Yunnan, China.</span> <span class="wx-journal">Zoosystematics and Evolution</span>, 101(4), 1397–1408. <a href="https://doi.org/10.3897/zse.101.148507" class="wx-doi">doi:10.3897/zse.101.148507</a></p>
+</div>
+<div class="wx-pub">
+<p>Wang, H., Geng, S., Liu, S., Li, Z., Cameron, S., Lei, T., <strong>Xu, W.</strong>, et al. (2025). <span class="wx-title">Unraveling the cryptic <em>Bemisia tabaci</em> species complex: global phylogenomic analysis reveals evolutionary relationships and biogeographic patterns.</span> <span class="wx-journal">Insect Science</span>, 33(1), 418–440. <a href="https://doi.org/10.1111/1744-7917.13501" class="wx-doi">doi:10.1111/1744-7917.13501</a></p>
+</div>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">2024</h2>
+<div class="wx-pub">
+<p><strong>Xu, W.</strong>, Wu, Y.-H., Zhou, W.-W., Chen, H.-M., Zhang, B.-L., Chen, J.-M., Xu, W., Rao, D.-Q., et al.&nbsp;(2024). <span class="wx-title">Hidden hotspots of amphibian biodiversity in China.</span> <span class="wx-journal">PNAS</span>, 121(20), e2320674121. <a href="https://doi.org/10.1073/pnas.2320674121" class="wx-doi">doi:10.1073/pnas.2320674121</a></p>
+</div>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">2023</h2>
+<div class="wx-pub">
+<p>Karuno, A. P., Mi, X., Chen, Y., Zou, D.-H., Gao, W., Zhang, B.-L., <strong>Xu, W.</strong>, Jin, J.-Q., Shen, W.-J., Huang, S., Zhou, W.-W. &amp; Che, J. (2023). <span class="wx-title">Impacts of climate change on herpetofauna diversity in the Qinghai–Tibetan Plateau.</span> <span class="wx-journal">Conservation Biology</span>, 37(6), e14155. <a href="https://doi.org/10.1111/cobi.14155" class="wx-doi">doi:10.1111/cobi.14155</a></p>
+</div>
+</section>
+<section id="section-4" class="level2">
+<h2 class="anchored" data-anchor-id="section-4">2022</h2>
+<div class="wx-pub">
+<p>Yuan, Z.-Y., Wu, D.-Y., Wen, Y., <strong>Xu, W.</strong>, Gao, W., Dahn, H. A., Liu, X., Jin, J.-Q., Yu, C., Xiao, H. &amp; Che, J. (2022). <span class="wx-title">Historical mitochondrial genome introgression confounds species delimitation: evidence from phylogenetic inference in the <em>Odorrana grahami</em> species complex.</span> <span class="wx-journal">Current Zoology</span>, 69(1), 82–90. <a href="https://doi.org/10.1093/cz/zoac010" class="wx-doi">doi:10.1093/cz/zoac010</a></p>
+</div>
+</section>
+<section id="section-5" class="level2">
+<h2 class="anchored" data-anchor-id="section-5">2021</h2>
+<div class="wx-pub">
+<p><strong>Xu, W.</strong>, Dong, W.-J., Fu, T.-T., Gao, W., Lu, C.-Q., Yan, F., Wu, Y.-H., Jiang, K., Jin, J.-Q., et al.&nbsp;(2021). <span class="wx-title">Herpetological phylogeographic analyses support a Miocene focal point of Himalayan uplift and biological diversification.</span> <span class="wx-journal">National Science Review</span>, 8(9), nwaa263. <span class="wx-flag">ESI Highly Cited</span> <a href="https://doi.org/10.1093/nsr/nwaa263" class="wx-doi">doi:10.1093/nsr/nwaa263</a></p>
+</div>
+</section>
+<section id="section-6" class="level2">
+<h2 class="anchored" data-anchor-id="section-6">2019</h2>
+<div class="wx-pub">
+<p><strong>Xu, W.</strong> &amp; Che, J. (2019). <span class="wx-title">From cryptic species to biodiversity conservation in China: status and prospects.</span> <span class="wx-journal">Scientia Sinica Vitae</span>, 49(4), 519–530. <a href="https://doi.org/10.1360/N052018-00229" class="wx-doi">doi:10.1360/N052018-00229</a></p>
+</div>
+<div class="wx-pub">
+<p>Gao, W., Sun, Y.-B., Zhou, W.-W., Xiong, Z.-J., Chen, L., Li, H., Fu, T.-T., Xu, K., <strong>Xu, W.</strong>, et al.&nbsp;(2019). <span class="wx-title">Genomic and transcriptomic investigations of the evolutionary transition from oviparity to viviparity.</span> <span class="wx-journal">PNAS</span>, 116(9), 3646–3655. <a href="https://doi.org/10.1073/pnas.1816086116" class="wx-doi">doi:10.1073/pnas.1816086116</a></p>
+</div>
+</section>
+<section id="section-7" class="level2">
+<h2 class="anchored" data-anchor-id="section-7">2018</h2>
+<div class="wx-pub">
+<p>Yan, F., Lü, J., Zhang, B., Yuan, Z., Zhao, H., Huang, S., Wei, G., Mi, X., Zou, D., <strong>Xu, W.</strong>, et al.&nbsp;(2018). <span class="wx-title">The Chinese giant salamander exemplifies the hidden extinction of cryptic species.</span> <span class="wx-journal">Current Biology</span>, 28(10), R590–R592. <a href="https://doi.org/10.1016/j.cub.2018.04.004" class="wx-doi">doi:10.1016/j.cub.2018.04.004</a></p>
+</div>
+</section>
+</div>
 
 
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    window.setColorSchemeToggle(window.hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -248,6 +529,11 @@ Wang Hualing, Shilong Geng, Shusheng Liu, Zhongtao Li, Stephen Cameron, Teng Lei
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -565,14 +851,14 @@ Wang Hualing, Shilong Geng, Shusheng Liu, Zhongtao Li, Stephen Cameron, Teng Lei
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p>© 2026 Wei Xu | 徐伟</p>
+</div>   
     <div class="nav-footer-center">
-<p>© 2025 Wei Xu | 徐伟</p>
-</div>
-    <div class="nav-footer-right">
       &nbsp;
     </div>
+    <div class="nav-footer-right">
+<p>Built with Quarto</p>
+</div>
   </div>
 </footer>
 

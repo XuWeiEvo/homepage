@@ -1,40 +1,166 @@
-<blockquote>
-<p><strong>Wei Xu</strong>, Yun-He Wu, Wei-Wei Zhou et al. (2024) Hidden
-hotspots of amphibian biodiversity in China.
-<em><strong>PNAS</strong></em>, 121(20), e2320674121.</p>
-<p><strong>Wei Xu</strong>, Wen-Jie Dong and Ting-Ting Fu et al. (2020).
-Herpetological phylogeographic analyses support a Miocene focal point of
-Himalayan uplift and biological diversification. <em><strong>National
-Science Review</strong></em>, 8(9), nwaa263. (<strong>ESI Highly Cited
-Paper by Web of Science</strong>)</p>
-<p><strong>Wei, Xu</strong>, and Jing CHE. (2019). From cryptic species
-to biodiversity conservation in China: Status and prospects.
-<em><strong>Scientia Sinica Vitae</strong></em> 49.4: 519–530.</p>
-<p>Zhi-Yong Yuan, Dong-Yi Wu, Yang Wen, <strong>Wei Xu</strong>, …, Heng
-Xiao, Jing Che. (2022). Historical mitochondrial genome introgression
-confounds species delimitation- evidence from phylogenetic inference of
-the <em>O. grahami</em> complex. <em><strong>Current
-Zoology</strong></em>, zoac010.</p>
-<p>Wei Gao, Yan-Bo Sun, Wei-Wei Zhou, Zi-Jun Xiong, Luonan Chen, Hong
-Li, Ting-Ting Fu, Kai Xu, <strong>Wei Xu</strong>, …, David M. Hillis,
-Xiang Ji, Ya-Ping Zhang, and Jing Che. (2019). Genomic and
-transcriptomic investigations of the evolutionary transition from
-oviparity to viviparity. <em><strong>PNAS</strong></em>, 116(9),
-3646–3655.</p>
-<p>Fang, Yan, Jingcai Lü, Baolin Zhang, Zhiyong Yuan, Haipeng Zhao, Song
-Huang, Gang Wei, Xue Mi, Dahu Zou, <strong>Wei Xu</strong>, …, Robert W.
-Murphy, Yaping Zhang, and Jing Che. (2018). The Chinese giant salamander
-exemplifies the hidden extinction of cryptic species.
-<em><strong>Current Biology</strong></em>, 28(10), R590–R592.</p>
-<p>Karuno Alex, Xue Mi, Chen Youhua, Da-Hu Zou, Wei Gao, Bao-Lin Zhang,
-<strong>Wei Xu</strong>, Jie-Qiong Jin, Wen-Jing Shen, Song Huang,
-Wei-Wei Zhou, Jing Che. (2023). Resilience of Herpetofauna diversity
-under adverse impacts of Climate Change in Qinghai-Tibetan Plateau
-(QTP). <em><strong>Conservation Biology</strong></em>. 37(6),
-e14155.</p>
-<p>Wang Hualing, Shilong Geng, Shusheng Liu, Zhongtao Li, Stephen
-Cameron, Teng Lei, <strong>Wei Xu</strong> et al. (2025) Unraveling the
-cryptic <em>Bemisia tabaci</em> species complex: Global phylogenomic
-analysis reveals evolutionary relationships and biogeographic patterns.
-<em><strong>Insect Science</strong></em>. 0, 1–23.</p>
-</blockquote>
+﻿---
+title: "Publications"
+toc: true
+toc-depth: 2
+---
+
+::: {.wx-lead}
+My name is set in **bold**. Metrics from Google Scholar, July 2026; the
+continuously updated record lives on [ORCID](https://orcid.org/0000-0002-4184-3982).
+:::
+
+<div class="wx-metrics">
+  <div><span class="wx-metric-v">517</span><span class="wx-metric-k">Citations</span></div>
+  <div><span class="wx-metric-v">8</span><span class="wx-metric-k">h-index</span></div>
+  <div><span class="wx-metric-v">7</span><span class="wx-metric-k">i10-index</span></div>
+  <div><span class="wx-metric-v">1</span><span class="wx-metric-k">ESI highly cited</span></div>
+</div>
+
+<div class="wx-actions">
+  <a class="wx-btn" href="https://orcid.org/0000-0002-4184-3982">ORCID</a>
+  <a class="wx-btn" href="https://scholar.google.com/citations?hl=en&amp;user=YOxNTyAAAAAJ">Google Scholar</a>
+  <a class="wx-btn" href="https://www.researchgate.net/profile/Wei-Xu-312">ResearchGate</a>
+</div>
+
+::: {.wx-pubs}
+
+## Preprints
+
+::: {.wx-pub}
+**Xu, W.** & Wu, Y.-H. (2026). [BioGeoSyn: a graphical software for reproducible
+biogeographic analyses and cross-clade synthesis of biogeographic
+events.]{.wx-title} [bioRxiv]{.wx-journal}.
+[doi:10.64898/2026.07.21.739740](https://doi.org/10.64898/2026.07.21.739740){.wx-doi}
+· [GitHub](https://github.com/XuWeiEvo/BioGeoSyn){.wx-doi}
+:::
+
+::: {.wx-pub}
+Cabral, A., Couvreur, T. L. P., Sauquet, H., Petrocelli, I., Rodrigues-Vaz, C.,
+Lozinguez, A., **Xu, W.**, Orellana-Vera, G. & Onstein, R. E. (2026).
+[AnnonFruitTraits 1.0, a comprehensive dataset on frugivory-related traits for
+Annonaceae species worldwide.]{.wx-title} [Research Square]{.wx-journal}.
+[doi:10.21203/rs.3.rs-10084032/v1](https://doi.org/10.21203/rs.3.rs-10084032/v1){.wx-doi}
+:::
+
+## 2026
+
+::: {.wx-pub}
+Wu, Y.-H., Zhang, D., Shen, W., Zhang, T., Kilunda, F. K. & **Xu, W.** (2026).
+[Stop the biodiversity sampling arms race.]{.wx-title} [Science]{.wx-journal},
+393(6806), 46.
+[doi:10.1126/science.aei5413](https://doi.org/10.1126/science.aei5413){.wx-doi}
+:::
+
+::: {.wx-pub}
+Ravomanana, E. O., **Xu, W.**, Rakotoarinivo, M., Rafidison, V. M. &
+Couvreur, T. L. P. (2026). [Diversity, distribution and conservation of Annonaceae
+(Magnoliales) in Madagascar.]{.wx-title} [Biological Conservation]{.wx-journal},
+316, 111778.
+[doi:10.1016/j.biocon.2026.111778](https://doi.org/10.1016/j.biocon.2026.111778){.wx-doi}
+:::
+
+## 2025
+
+::: {.wx-pub}
+Wu, D., Prendini, E., Raxworthy, C. J., Wang, Z., Zhou, W., Chen, J.,
+Suwannapoom, C., Sucharitakul, P., Pie, M. R., **Xu, W.** & Yuan, Z. (2025).
+[Earth history and trait innovation drive the global radiation of modern
+toads.]{.wx-title} [Proceedings of the Royal Society B]{.wx-journal}, 292(2057),
+20251928.
+[doi:10.1098/rspb.2025.1928](https://doi.org/10.1098/rspb.2025.1928){.wx-doi}
+:::
+
+::: {.wx-pub}
+Lu, C., Ding, W., **Xu, W.**, Li, Q., He, S.-W., Wu, F., Dong, W., Jin, J.-Q.,
+Dong, F., Jiang, X.-L., Wang, K., Guo, P., Murphy, R. W., Zhang, Y.-P. & Che, J.
+(2025). [Contrasting evolutionary trajectories of terrestrial vertebrates in the
+Hengduan Mountains hotspot.]{.wx-title} [National Science Review]{.wx-journal},
+12(8), nwaf157.
+[doi:10.1093/nsr/nwaf157](https://doi.org/10.1093/nsr/nwaf157){.wx-doi}
+:::
+
+::: {.wx-pub}
+Liu, N.-Y., Chen, L., **Xu, W.** & Wu, Y.-H. (2025). [Morphological and molecular
+evidence reveal a new Asian leaf litter toad of the genus *Leptobrachella* Smith,
+1925 (Anura, Megophryidae) from the northeastern hills of Yunnan,
+China.]{.wx-title} [Zoosystematics and Evolution]{.wx-journal}, 101(4), 1397–1408.
+[doi:10.3897/zse.101.148507](https://doi.org/10.3897/zse.101.148507){.wx-doi}
+:::
+
+::: {.wx-pub}
+Wang, H., Geng, S., Liu, S., Li, Z., Cameron, S., Lei, T., **Xu, W.**, et al.
+(2025). [Unraveling the cryptic *Bemisia tabaci* species complex: global
+phylogenomic analysis reveals evolutionary relationships and biogeographic
+patterns.]{.wx-title} [Insect Science]{.wx-journal}, 33(1), 418–440.
+[doi:10.1111/1744-7917.13501](https://doi.org/10.1111/1744-7917.13501){.wx-doi}
+:::
+
+## 2024
+
+::: {.wx-pub}
+**Xu, W.**, Wu, Y.-H., Zhou, W.-W., Chen, H.-M., Zhang, B.-L., Chen, J.-M., Xu, W.,
+Rao, D.-Q., et al. (2024). [Hidden hotspots of amphibian biodiversity in
+China.]{.wx-title} [PNAS]{.wx-journal}, 121(20), e2320674121.
+[doi:10.1073/pnas.2320674121](https://doi.org/10.1073/pnas.2320674121){.wx-doi}
+:::
+
+## 2023
+
+::: {.wx-pub}
+Karuno, A. P., Mi, X., Chen, Y., Zou, D.-H., Gao, W., Zhang, B.-L., **Xu, W.**,
+Jin, J.-Q., Shen, W.-J., Huang, S., Zhou, W.-W. & Che, J. (2023). [Impacts of
+climate change on herpetofauna diversity in the Qinghai–Tibetan
+Plateau.]{.wx-title} [Conservation Biology]{.wx-journal}, 37(6), e14155.
+[doi:10.1111/cobi.14155](https://doi.org/10.1111/cobi.14155){.wx-doi}
+:::
+
+## 2022
+
+::: {.wx-pub}
+Yuan, Z.-Y., Wu, D.-Y., Wen, Y., **Xu, W.**, Gao, W., Dahn, H. A., Liu, X.,
+Jin, J.-Q., Yu, C., Xiao, H. & Che, J. (2022). [Historical mitochondrial genome
+introgression confounds species delimitation: evidence from phylogenetic inference
+in the *Odorrana grahami* species complex.]{.wx-title}
+[Current Zoology]{.wx-journal}, 69(1), 82–90.
+[doi:10.1093/cz/zoac010](https://doi.org/10.1093/cz/zoac010){.wx-doi}
+:::
+
+## 2021
+
+::: {.wx-pub}
+**Xu, W.**, Dong, W.-J., Fu, T.-T., Gao, W., Lu, C.-Q., Yan, F., Wu, Y.-H.,
+Jiang, K., Jin, J.-Q., et al. (2021). [Herpetological phylogeographic analyses
+support a Miocene focal point of Himalayan uplift and biological
+diversification.]{.wx-title} [National Science Review]{.wx-journal}, 8(9), nwaa263.
+[ESI Highly Cited]{.wx-flag}
+[doi:10.1093/nsr/nwaa263](https://doi.org/10.1093/nsr/nwaa263){.wx-doi}
+:::
+
+## 2019
+
+::: {.wx-pub}
+**Xu, W.** & Che, J. (2019). [From cryptic species to biodiversity conservation in
+China: status and prospects.]{.wx-title} [Scientia Sinica Vitae]{.wx-journal},
+49(4), 519–530.
+[doi:10.1360/N052018-00229](https://doi.org/10.1360/N052018-00229){.wx-doi}
+:::
+
+::: {.wx-pub}
+Gao, W., Sun, Y.-B., Zhou, W.-W., Xiong, Z.-J., Chen, L., Li, H., Fu, T.-T.,
+Xu, K., **Xu, W.**, et al. (2019). [Genomic and transcriptomic investigations of
+the evolutionary transition from oviparity to viviparity.]{.wx-title}
+[PNAS]{.wx-journal}, 116(9), 3646–3655.
+[doi:10.1073/pnas.1816086116](https://doi.org/10.1073/pnas.1816086116){.wx-doi}
+:::
+
+## 2018
+
+::: {.wx-pub}
+Yan, F., Lü, J., Zhang, B., Yuan, Z., Zhao, H., Huang, S., Wei, G., Mi, X.,
+Zou, D., **Xu, W.**, et al. (2018). [The Chinese giant salamander exemplifies the
+hidden extinction of cryptic species.]{.wx-title} [Current Biology]{.wx-journal},
+28(10), R590–R592.
+[doi:10.1016/j.cub.2018.04.004](https://doi.org/10.1016/j.cub.2018.04.004){.wx-doi}
+:::
+
+:::

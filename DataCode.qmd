@@ -1,1 +1,100 @@
-nothing yet
+﻿---
+title: "Data and Code"
+---
+
+::: {.wx-lead}
+Software, datasets and reproducible workflows from my research. Everything here is
+open and free to reuse — if something is missing or broken, please
+[e-mail me](mailto:xuwei.evo@gmail.com).
+:::
+
+<p class="wx-section-label">Software</p>
+
+## BioGeoSyn
+
+An R package that wraps [BioGeoBEARS](http://phylo.wikidot.com/biogeobears) in a
+step-by-step graphical interface, so that ancestral-range reconstruction and model
+comparison become reproducible — and comparable across clades.
+
+<div class="wx-grid">
+  <div class="wx-card">
+  <h3>Reproducible GUI</h3>
+  <p>A five-step wizard from data upload to results, with standardised output tables and publication-ready figures.</p>
+  </div>
+  <div class="wx-card">
+  <h3>Cross-clade synthesis</h3>
+  <p>Pools biogeographic event statistics across multiple groups: range expansion, speciation modes, vicariance and extinction.</p>
+  </div>
+  <div class="wx-card">
+  <h3>Guarded state space</h3>
+  <p>Automated state-space monitoring and performance optimisation, so analyses fail fast instead of running for days.</p>
+  </div>
+  <div class="wx-card">
+  <h3>Advanced constraints</h3>
+  <p>Time stratification, dispersal multipliers and area-adjacency matrices, all configurable from the interface.</p>
+  </div>
+  <div class="wx-card">
+  <h3>Reports</h3>
+  <p>HTML and PDF report generation directly from a completed run.</p>
+  </div>
+  <div class="wx-card">
+  <h3>Portable bundles</h3>
+  <p>Result bundles that can be shared with collaborators or attached to a manuscript.</p>
+  </div>
+</div>
+
+### Install
+
+```r
+remotes::install_github("XuWeiEvo/BioGeoSyn")
+```
+
+BioGeoBEARS must be installed separately; the app ships with an environment checker
+that helps with setup.
+
+### Run
+
+```r
+library(BioGeoSyn)
+launch_app()          # interactive GUI
+# or, scripted:
+run_workflow()
+```
+
+<div class="wx-actions">
+  <a class="wx-btn wx-btn-solid" href="https://github.com/XuWeiEvo/BioGeoSyn">GitHub repository</a>
+  <a class="wx-btn" href="https://doi.org/10.64898/2026.07.21.739740">Preprint (bioRxiv)</a>
+</div>
+
+**Cite as:** **Xu, W.** & Wu, Y.-H. (2026). *BioGeoSyn: a graphical software for
+reproducible biogeographic analyses and cross-clade synthesis of biogeographic
+events.* bioRxiv.
+[doi:10.64898/2026.07.21.739740](https://doi.org/10.64898/2026.07.21.739740)
+
+<p class="wx-section-label">Datasets</p>
+
+## AnnonFruitTraits 1.0
+
+A comprehensive dataset of frugivory-related traits for Annonaceae species
+worldwide — fruit and seed morphology assembled to test how dispersal traits shape
+tropical rainforest diversity.
+
+Cabral, A., Couvreur, T. L. P., Sauquet, H., Petrocelli, I., Rodrigues-Vaz, C.,
+Lozinguez, A., **Xu, W.**, Orellana-Vera, G. & Onstein, R. E. (2026).
+[doi:10.21203/rs.3.rs-10084032/v1](https://doi.org/10.21203/rs.3.rs-10084032/v1)
+
+<p class="wx-section-label">Data behind the papers</p>
+
+Data and code for my papers are archived with the articles themselves — see each
+data-availability statement, for example:
+
+- **Hidden hotspots of amphibian biodiversity in China** — *PNAS* (2024).
+  [doi:10.1073/pnas.2320674121](https://doi.org/10.1073/pnas.2320674121)
+- **Contrasting evolutionary trajectories of terrestrial vertebrates in the Hengduan
+  Mountains hotspot** — *National Science Review* (2025).
+  [doi:10.1093/nsr/nwaf157](https://doi.org/10.1093/nsr/nwaf157)
+- **Herpetological phylogeographic analyses support a Miocene focal point of
+  Himalayan uplift** — *National Science Review* (2021).
+  [doi:10.1093/nsr/nwaa263](https://doi.org/10.1093/nsr/nwaa263)
+
+The full list is on the [Publications](publications.qmd) page.

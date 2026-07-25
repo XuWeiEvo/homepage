@@ -1,60 +1,131 @@
-<p><strong>Wei Xu</strong> <img src="media/image1.jpeg"
-style="width:1.15119in;height:1.15313in" alt="Wei" /></p>
-<p><strong>Senior postdoctoral researcher</strong></p>
-<p>Tropical Biodiversity Evolution lab, DIADE, Université Montpellier,
-CIRAD, IRD, Montpellier, France</p>
-<p>E-mail: xuwei.evo@gmail.com</p>
-<p>ResearchGate: <a
-href="https://www.researchgate.net/profile/Xu-Wei-9">https://www.researchgate.net/profile/Xu-Wei-9</a></p>
-<blockquote>
-<p><strong>Education and Employment:</strong></p>
-<p>2024–February 2026, Senior Postdoctoral researcher, Tropical
-Biodiversity Evolution lab, DIADE, Université Montpellier, CIRAD, IRD,
-Montpellier, France</p>
-<p>2022–2024: Assistant researcher, Kunming Institute of Zoology,
-Chinese Academy of Sciences</p>
-<p>2016–2021: Kunming Institute of Zoology, Chinese Academy of Sciences
-(GPA: 3.7/4.0), PhD, Zoology</p>
-<p>2012–2016: Southern Medical University, Bachelor of Biotechnology</p>
-<p><strong>Skills:</strong></p>
-</blockquote>
-<ul>
-<li><p>Extensive experience in applying integrative phylogenetic
-approaches, spatial methods, and large datasets (including distribution
-data, molecular data, ecological data, etc.) to address fundamental
-conceptual questions in evolutionary biology. My expertise includes
-analyzing diversity patterns on a large geographic scale, modeling
-species distribution, reconstructing mega-phylogenies, investigating
-biogeographic history, studying population genetics;</p></li>
-<li><p>Computer skills: Linux; Perl; R; ArcGIS;</p></li>
-<li><p>Proficient in basic molecular experimental techniques, such as
-DNA extraction and PCR.</p></li>
+﻿---
+title: "Curriculum Vitae"
+toc: true
+toc-depth: 2
+---
+
+::: {.wx-lead}
+Evolutionary biologist working across phylogenetics, biogeography and conservation —
+from fieldwork on the Qinghai–Tibetan Plateau to global-scale analyses of tropical
+plants.
+:::
+
+<div class="wx-actions">
+  <a class="wx-btn wx-btn-solid" href="mailto:xuwei.evo@gmail.com">xuwei.evo@gmail.com</a>
+  <a class="wx-btn" href="https://orcid.org/0000-0002-4184-3982">ORCID</a>
+  <a class="wx-btn" href="https://scholar.google.com/citations?hl=en&amp;user=YOxNTyAAAAAJ">Google Scholar</a>
+  <a class="wx-btn" href="https://github.com/XuWeiEvo">GitHub</a>
+</div>
+
+## Appointments
+
+<ul class="wx-timeline">
+  <li class="wx-now">
+  <span class="wx-when">2026 — present</span>
+  <span class="wx-what">Postdoctoral researcher</span>
+  <span class="wx-where">Tel Aviv University, Israel</span>
+  </li>
+  <li>
+  <span class="wx-when">2024 — 2026</span>
+  <span class="wx-what">Senior postdoctoral researcher</span>
+  <span class="wx-where">Tropical Biodiversity Evolution group (DYNADIV), DIADE — IRD / Université de Montpellier / CIRAD, Montpellier, France</span>
+  </li>
+  <li>
+  <span class="wx-when">2022 — 2024</span>
+  <span class="wx-what">Assistant researcher</span>
+  <span class="wx-where">Laboratory of Herpetological Diversity and Evolution, Kunming Institute of Zoology, Chinese Academy of Sciences, China</span>
+  </li>
 </ul>
-<blockquote>
-<p><strong>Research interests:</strong></p>
-<p>Macro-ecology, macro-evolution, and conservation; Diversity patterns
-and responses to climate change; Phylogenetic and functional
-diversity.</p>
-<p><strong>Fieldwork:</strong></p>
-<p>2016–2018, North and Southwest of Qinghai-Tibetan Plateau, China.
-Collecting amphibians and reptiles.</p>
-<p>2018, Huangshan Mountains, China. Collecting amphibians.</p>
-<p>2017, Chitwan National Park, Nepal. Collecting amphibians and
-reptiles.</p>
-<p><strong>Supervision and training:</strong></p>
-<p>Guiding two PhD students in 2022.</p>
-<p>2018, Conducting molecular experiment training in Sino-Africa Joint
-Research Center, Chinese Academy of Science, Nairobi, Kenya.</p>
-<p><strong>Plenary/Keynote Conference presentations:</strong></p>
-<p><strong>Wei Xu</strong>. Functional Trait, Diversity Patterns and
-Conservation of Annonaceae: a representative of Tropical Rain Forests.
-XX INTERNATIONAL BOTANICAL CONGRESS, July 2024.</p>
-<p><strong>Wei Xu</strong>. Reptiles and Amphibians Record Complex
-History of the Himalaya. The 2<sup>nd</sup> AsiaEvo Conference, August
-2021.</p>
-<p><strong>Wei Xu</strong>. Genome-wide data help to unveil true
-landscape of biodiversity masked by cryptic species: A case study about
-Asian horned toad (Amphibia: Megophryidae) in the southeast China. The
-24<sup>th</sup> Academic Annual Meeting of China Zoology Society, August
-2019.</p>
-</blockquote>
+
+## Education
+
+<ul class="wx-timeline">
+  <li>
+  <span class="wx-when">2016 — 2022</span>
+  <span class="wx-what">PhD, Zoology</span>
+  <span class="wx-where">Kunming Institute of Zoology, Chinese Academy of Sciences (GPA 3.7/4.0)</span>
+  </li>
+  <li>
+  <span class="wx-when">2012 — 2016</span>
+  <span class="wx-what">BSc, Biotechnology</span>
+  <span class="wx-where">Southern Medical University, China</span>
+  </li>
+</ul>
+
+## Research interests
+
+Macroevolution, macroecology and conservation; diversity patterns and their
+responses to climate change; phylogenetic and functional diversity; the
+biogeography of mountains and tropical rainforests; reproducible large-scale
+biodiversity analysis.
+
+## Bibliometrics
+
+<div class="wx-metrics">
+  <div><span class="wx-metric-v">517</span><span class="wx-metric-k">Citations</span></div>
+  <div><span class="wx-metric-v">8</span><span class="wx-metric-k">h-index</span></div>
+  <div><span class="wx-metric-v">7</span><span class="wx-metric-k">i10-index</span></div>
+</div>
+
+Publications in *Science*, *PNAS*, *Current Biology*, *National Science Review*,
+*Proceedings of the Royal Society B*, *Conservation Biology* and *Biological
+Conservation*, including one **ESI Highly Cited Paper** (Web of Science).
+See the [Publications](publications.qmd) page.
+
+## Skills
+
+- **Comparative and spatial analysis** — integrative phylogenetic approaches,
+  spatial methods and large datasets (distribution, molecular, ecological and trait
+  data) applied to fundamental questions in evolutionary biology: diversity patterns
+  at large geographic scales, species distribution modelling, mega-phylogeny
+  reconstruction, biogeographic history, population genetics.
+- **Scientific software** — development of research software for biogeography,
+  including [BioGeoSyn](DataCode.qmd).
+- **Computing** — R, Perl, Linux / HPC, ArcGIS.
+- **Laboratory** — DNA extraction, PCR and related molecular techniques.
+
+## Fieldwork
+
+<ul class="wx-timeline">
+  <li>
+  <span class="wx-when">2016 — 2018</span>
+  <span class="wx-what">Qinghai–Tibetan Plateau, China</span>
+  <span class="wx-where">Northern and southwestern plateau; collecting amphibians and reptiles</span>
+  </li>
+  <li>
+  <span class="wx-when">2018</span>
+  <span class="wx-what">Huangshan Mountains, China</span>
+  <span class="wx-where">Collecting amphibians</span>
+  </li>
+  <li>
+  <span class="wx-when">2017</span>
+  <span class="wx-what">Chitwan National Park, Nepal</span>
+  <span class="wx-where">Collecting amphibians and reptiles</span>
+  </li>
+</ul>
+
+## Supervision and training
+
+- **2022** — Co-supervision of two PhD students.
+- **2018** — Molecular experiment training, Sino-Africa Joint Research Center,
+  Chinese Academy of Sciences, Nairobi, Kenya.
+
+## Plenary and keynote presentations
+
+<ul class="wx-timeline">
+  <li>
+  <span class="wx-when">July 2024</span>
+  <span class="wx-what">XX International Botanical Congress</span>
+  <span class="wx-where">Functional trait, diversity patterns and conservation of Annonaceae: a representative of tropical rain forests</span>
+  </li>
+  <li>
+  <span class="wx-when">August 2021</span>
+  <span class="wx-what">2nd AsiaEvo Conference</span>
+  <span class="wx-where">Reptiles and amphibians record the complex history of the Himalaya</span>
+  </li>
+  <li>
+  <span class="wx-when">August 2019</span>
+  <span class="wx-what">24th Annual Meeting, China Zoological Society</span>
+  <span class="wx-where">Genome-wide data unveil the true landscape of biodiversity masked by cryptic species: Asian horned toads (Megophryidae) in southeast China</span>
+  </li>
+</ul>

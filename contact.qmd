@@ -1,6 +1,19 @@
-</blockquote>
-Email: xuwei.evo@gmail.com</p>
-ResearchGate: https://www.researchgate.net/profile/Wei-Xu-312?ev=hdr_xprf</p>
-Google Scholar: https://scholar.google.com/citations?hl=zh-CN&user=YOxNTyAAAAAJ</p>
-ORCID: 0000-0002-4184-3982
-</blockquote>
+﻿---
+title: "Contact"
+toc: false
+---
+
+::: {.wx-lead}
+I am always glad to hear about collaborations in macroecology, macroevolution,
+biogeography and conservation — and about anyone who wants to use, break or improve
+[BioGeoSyn](DataCode.qmd).
+:::
+
+<ul class="wx-contact-list">
+  <li><span class="wx-k">E-mail</span><span><a href="mailto:xuwei.evo@gmail.com">xuwei.evo@gmail.com</a></span></li>
+  <li><span class="wx-k">Affiliation</span><span>Tel Aviv University, Israel</span></li>
+  <li><span class="wx-k">ORCID</span><span><a href="https://orcid.org/0000-0002-4184-3982">0000-0002-4184-3982</a></span></li>
+  <li><span class="wx-k">Google Scholar</span><span><a href="https://scholar.google.com/citations?hl=en&amp;user=YOxNTyAAAAAJ">scholar.google.com</a></span></li>
+  <li><span class="wx-k">GitHub</span><span><a href="https://github.com/XuWeiEvo">XuWeiEvo</a></span></li>
+  <li><span class="wx-k">ResearchGate</span><span><a href="https://www.researchgate.net/profile/Wei-Xu-312">Wei-Xu-312</a></span></li>
+</ul>

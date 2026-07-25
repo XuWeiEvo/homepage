@@ -1,0 +1,49 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap');
+
+// Night-canopy variant of the light palette
+$wx-mint:      #6fd0ba;
+$wx-mint-soft: #a9e3d4;
+$wx-ochre:     #e0955c;
+$wx-night:     #0d1614;
+$wx-night-2:   #14211e;
+$wx-fog:       #dde8e4;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$headings-font-family:   "Fraunces", Georgia, "Times New Roman", serif;
+
+$primary:    $wx-mint;
+$body-bg:    $wx-night;
+$body-color: $wx-fog;
+$link-color: $wx-mint;
+$link-hover-color: $wx-ochre;
+
+$headings-font-weight: 600;
+$h1-font-size: 2.4rem;
+$h2-font-size: 1.6rem;
+$h3-font-size: 1.2rem;
+
+$navbar-bg: rgba(13, 22, 20, 0.88);
+$navbar-fg: $wx-fog;
+$navbar-hl: $wx-mint;
+
+$footer-bg: transparent;
+$border-color: rgba(111, 208, 186, 0.18);
+
+/*-- scss:rules --*/
+
+body {
+  --wx-bg: #{$wx-night};
+  --wx-surface: #{$wx-night-2};
+  --wx-surface-alt: #1b2b27;
+  --wx-ink: #{$wx-fog};
+  --wx-muted: #9db3ad;
+  --wx-accent: #{$wx-mint};
+  --wx-accent-deep: #{$wx-mint-soft};
+  --wx-accent-soft: #{$wx-mint-soft};
+  --wx-ochre: #{$wx-ochre};
+  --wx-line: rgba(111, 208, 186, 0.20);
+  --wx-tree: rgba(111, 208, 186, 0.28);
+  --wx-shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 14px 30px -18px rgba(0, 0, 0, .8);
+}

@@ -4,25 +4,46 @@ project:
 
 website:
   title: "Wei Xu | 徐伟"
+  description: "Macroevolution, macroecology and conservation — Wei Xu, Tel Aviv University."
+  favicon: favicon.svg
   navbar:
+    pinned: true
     left:
       - text: "Home"
         href: index.qmd
-      - text: "CV"
-        href: cv.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Data and Code"
+      - text: "Data & Code"
         href: DataCode.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Databases"
+        href: global-biodiversity.qmd
       - text: "Contact"
         href: contact.qmd
-      - text: "Global Biodiversity Database Inventory"
-        href: global-biodiversity.qmd
+    right:
+      - icon: github
+        href: https://github.com/XuWeiEvo
+        aria-label: GitHub
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?hl=en&user=YOxNTyAAAAAJ
+        aria-label: Google Scholar
+      - icon: envelope
+        href: mailto:xuwei.evo@gmail.com
+        aria-label: E-mail
   page-footer:
-    center: "© 2025 Wei Xu | 徐伟"
+    left: "© 2026 Wei Xu | 徐伟"
+    right: "Built with Quarto"
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [cosmo, theme-dark.scss]
+    css: styles.css
     toc: true
     toc-depth: 2
+    anchor-sections: true
+    link-external-newwindow: true
+    grid:
+      body-width: 900px
