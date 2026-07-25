@@ -55,7 +55,8 @@ Couvreur, T. L. P. (2026). [Diversity, distribution and conservation of Annonace
 Wu, D., Prendini, E., Raxworthy, C. J., Wang, Z., Zhou, W., Chen, J.,
 Suwannapoom, C., Sucharitakul, P., Pie, M. R.,
 **Xu, W.**<i class="bi bi-envelope-fill wx-corr" title="Corresponding author"></i>
-& Yuan, Z. (2025).
+& Yuan, Z.<i class="bi bi-envelope-fill wx-corr" title="Corresponding author"></i>
+(2025).
 [Earth history and trait innovation drive the global radiation of modern
 toads.]{.wx-title} [Proceedings of the Royal Society B]{.wx-journal}, 292(2057),
 20251928.
