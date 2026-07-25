@@ -8,6 +8,8 @@ website:
   favicon: favicon.svg
   navbar:
     pinned: true
+    title: false
+    logo: favicon.svg
     left:
       - text: "Home"
         href: index.qmd
@@ -21,16 +23,6 @@ website:
         href: global-biodiversity.qmd
       - text: "Contact"
         href: contact.qmd
-    right:
-      - icon: github
-        href: https://github.com/XuWeiEvo
-        aria-label: GitHub
-      - icon: mortarboard-fill
-        href: https://scholar.google.com/citations?hl=en&user=YOxNTyAAAAAJ
-        aria-label: Google Scholar
-      - icon: envelope
-        href: mailto:xuwei.evo@gmail.com
-        aria-label: E-mail
   page-footer:
     left: "© 2026 Wei Xu | 徐伟"
     right: "Built with Quarto"

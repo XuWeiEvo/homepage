@@ -1,4 +1,4 @@
-﻿---
+---
 title: ""
 toc: false
 pagetitle: "Wei Xu | 徐伟"
@@ -55,22 +55,15 @@ pagetitle: "Wei Xu | 徐伟"
    <li>Trait evolution</li><li>Mountains</li><li>Tropical rainforest</li>
    <li>Conservation planning</li>
   </ul>
-  <div class="wx-actions">
-   <a class="wx-btn wx-btn-solid" href="publications.html">Publications</a>
-   <a class="wx-btn" href="cv.html">CV</a>
-   <a class="wx-btn" href="DataCode.html">Software &amp; data</a>
-   <a class="wx-btn" href="mailto:xuwei.evo@gmail.com">E-mail</a>
-  </div>
 </div>
 </section>
 
-<p class="wx-section-label">In numbers</p>
+<p class="wx-section-label">Bibliometrics</p>
 
 <div class="wx-metrics">
   <div><span class="wx-metric-v">16</span><span class="wx-metric-k">Publications</span></div>
   <div><span class="wx-metric-v">517</span><span class="wx-metric-k">Citations</span></div>
   <div><span class="wx-metric-v">8</span><span class="wx-metric-k">h-index</span></div>
-  <div><span class="wx-metric-v">4</span><span class="wx-metric-k">Countries worked in</span></div>
 </div>
 
 <p class="wx-section-label">What I work on</p>
@@ -81,34 +74,29 @@ pagetitle: "Wei Xu | 徐伟"
   <p>How uplift and climate history shaped the Himalaya, the Qinghai&ndash;Tibetan Plateau and the Hengduan Mountains &mdash; and why different vertebrate groups answered the same geology in different ways.</p>
   </div>
   <div class="wx-card">
-  <h3>Hidden biodiversity</h3>
-  <p>Cryptic species quietly redraw the map of what needs protecting. Genome-wide data reveal hotspots that species lists alone never showed.</p>
+  <h3>Large-scale conservation</h3>
+  <p>Translating macroecological and phylogenetic evidence into conservation priorities at national and continental scale &mdash; as in our <em>PNAS</em> study revealing the hidden hotspots of amphibian biodiversity in China.</p>
   </div>
   <div class="wx-card">
-  <h3>Traits in tropical rainforests</h3>
-  <p>Functional and phylogenetic diversity in Annonaceae: frugivory traits, Madagascar's endemic flora, and what they imply for conservation.</p>
+  <h3>Trait diversity and evolution</h3>
+  <p>How functional traits originate, diversify and drive radiations: frugivory-related traits across the global Annonaceae of tropical rainforests, and the trait innovations behind the worldwide radiation of modern toads.</p>
   </div>
   <div class="wx-card">
-  <h3>Reproducible biogeography</h3>
-  <p>Building tools &mdash; such as <a href="DataCode.html">BioGeoSyn</a> &mdash; so biogeographic inference is repeatable and comparable across clades, not bespoke per study.</p>
+  <h3>Theory</h3>
+  <p>Developing the conceptual side of macroevolution and macroecology &mdash; the theory that the tools should rest on. Work in progress; nothing published yet.</p>
+  </div>
+  <div class="wx-card">
+  <h3>Software development</h3>
+  <p>Building open tools for macroevolution and macroecology, starting with <a href="DataCode.html">BioGeoSyn</a> &mdash; making biogeographic inference reproducible and comparable across clades &mdash; with more to come.</p>
   </div>
 </div>
 
 <p class="wx-section-label">Selected recent work</p>
 
 <ul class="wx-highlights">
-  <li><span class="wx-venue">bioRxiv 2026</span><span><strong>BioGeoSyn</strong> — a graphical software for reproducible biogeographic analyses and cross-clade synthesis. <a href="https://github.com/XuWeiEvo/BioGeoSyn">GitHub</a></span></li>
+  <li><span class="wx-venue">bioRxiv 2026</span><span><strong>BioGeoSyn</strong> — a graphical software for reproducible biogeographic analyses and cross-clade synthesis.</span></li>
   <li><span class="wx-venue">Science 2026</span><span>Stop the biodiversity sampling arms race.</span></li>
   <li><span class="wx-venue">Biol. Conserv. 2026</span><span>Diversity, distribution and conservation of Annonaceae in Madagascar.</span></li>
   <li><span class="wx-venue">Proc. B 2025</span><span>Earth history and trait innovation drive the global radiation of modern toads.</span></li>
   <li><span class="wx-venue">PNAS 2024</span><span>Hidden hotspots of amphibian biodiversity in China.</span></li>
 </ul>
-
-<p class="wx-section-label">Elsewhere</p>
-
-<div class="wx-actions">
-  <a class="wx-btn" href="https://orcid.org/0000-0002-4184-3982">ORCID</a>
-  <a class="wx-btn" href="https://scholar.google.com/citations?hl=en&amp;user=YOxNTyAAAAAJ">Google Scholar</a>
-  <a class="wx-btn" href="https://github.com/XuWeiEvo">GitHub</a>
-  <a class="wx-btn" href="https://www.researchgate.net/profile/Wei-Xu-312">ResearchGate</a>
-</div>

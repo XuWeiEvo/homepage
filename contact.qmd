@@ -5,8 +5,7 @@ toc: false
 
 ::: {.wx-lead}
 I am always glad to hear about collaborations in macroecology, macroevolution,
-biogeography and conservation — and about anyone who wants to use, break or improve
-[BioGeoSyn](DataCode.qmd).
+biogeography and conservation.
 :::
 
 <ul class="wx-contact-list">

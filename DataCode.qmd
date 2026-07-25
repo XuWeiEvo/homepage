@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Data and Code"
 ---
 
 ::: {.wx-lead}
-Software, datasets and reproducible workflows from my research. Everything here is
-open and free to reuse — if something is missing or broken, please
+Software and reproducible workflows from my research. Everything here is open and
+free to reuse — if something is missing or broken, please
 [e-mail me](mailto:xuwei.evo@gmail.com).
 :::
 
@@ -70,31 +70,3 @@ run_workflow()
 reproducible biogeographic analyses and cross-clade synthesis of biogeographic
 events.* bioRxiv.
 [doi:10.64898/2026.07.21.739740](https://doi.org/10.64898/2026.07.21.739740)
-
-<p class="wx-section-label">Datasets</p>
-
-## AnnonFruitTraits 1.0
-
-A comprehensive dataset of frugivory-related traits for Annonaceae species
-worldwide — fruit and seed morphology assembled to test how dispersal traits shape
-tropical rainforest diversity.
-
-Cabral, A., Couvreur, T. L. P., Sauquet, H., Petrocelli, I., Rodrigues-Vaz, C.,
-Lozinguez, A., **Xu, W.**, Orellana-Vera, G. & Onstein, R. E. (2026).
-[doi:10.21203/rs.3.rs-10084032/v1](https://doi.org/10.21203/rs.3.rs-10084032/v1)
-
-<p class="wx-section-label">Data behind the papers</p>
-
-Data and code for my papers are archived with the articles themselves — see each
-data-availability statement, for example:
-
-- **Hidden hotspots of amphibian biodiversity in China** — *PNAS* (2024).
-  [doi:10.1073/pnas.2320674121](https://doi.org/10.1073/pnas.2320674121)
-- **Contrasting evolutionary trajectories of terrestrial vertebrates in the Hengduan
-  Mountains hotspot** — *National Science Review* (2025).
-  [doi:10.1093/nsr/nwaf157](https://doi.org/10.1093/nsr/nwaf157)
-- **Herpetological phylogeographic analyses support a Miocene focal point of
-  Himalayan uplift** — *National Science Review* (2021).
-  [doi:10.1093/nsr/nwaa263](https://doi.org/10.1093/nsr/nwaa263)
-
-The full list is on the [Publications](publications.qmd) page.

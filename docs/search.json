@@ -137,28 +137,7 @@
     "href": "cv.html#bibliometrics",
     "title": "Curriculum Vitae",
     "section": "Bibliometrics",
-    "text": "Bibliometrics\n\n\n517Citations\n\n\n8h-index\n\n\n7i10-index\n\n\nPublications in Science, PNAS, Current Biology, National Science Review, Proceedings of the Royal Society B, Conservation Biology and Biological Conservation, including one ESI Highly Cited Paper (Web of Science). See the Publications page."
-  },
-  {
-    "objectID": "cv.html#skills",
-    "href": "cv.html#skills",
-    "title": "Curriculum Vitae",
-    "section": "Skills",
-    "text": "Skills\n\nComparative and spatial analysis — integrative phylogenetic approaches, spatial methods and large datasets (distribution, molecular, ecological and trait data) applied to fundamental questions in evolutionary biology: diversity patterns at large geographic scales, species distribution modelling, mega-phylogeny reconstruction, biogeographic history, population genetics.\nScientific software — development of research software for biogeography, including BioGeoSyn.\nComputing — R, Perl, Linux / HPC, ArcGIS.\nLaboratory — DNA extraction, PCR and related molecular techniques."
-  },
-  {
-    "objectID": "cv.html#fieldwork",
-    "href": "cv.html#fieldwork",
-    "title": "Curriculum Vitae",
-    "section": "Fieldwork",
-    "text": "Fieldwork\n\n\n2016 — 2018 Qinghai–Tibetan Plateau, China Northern and southwestern plateau; collecting amphibians and reptiles\n\n\n2018 Huangshan Mountains, China Collecting amphibians\n\n\n2017 Chitwan National Park, Nepal Collecting amphibians and reptiles"
-  },
-  {
-    "objectID": "cv.html#supervision-and-training",
-    "href": "cv.html#supervision-and-training",
-    "title": "Curriculum Vitae",
-    "section": "Supervision and training",
-    "text": "Supervision and training\n\n2022 — Co-supervision of two PhD students.\n2018 — Molecular experiment training, Sino-Africa Joint Research Center, Chinese Academy of Sciences, Nairobi, Kenya."
+    "text": "Bibliometrics\nPublications in Science, PNAS, Current Biology, National Science Review, Proceedings of the Royal Society B, Conservation Biology and Biological Conservation, including one ESI Highly Cited Paper (Web of Science). See the Publications page."
   },
   {
     "objectID": "cv.html#plenary-and-keynote-presentations",
@@ -172,34 +151,27 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "I am always glad to hear about collaborations in macroecology, macroevolution, biogeography and conservation — and about anyone who wants to use, break or improve BioGeoSyn.\n\n\n\nE-mailxuwei.evo@gmail.com\n\n\nAffiliationTel Aviv University, Israel\n\n\nORCID0000-0002-4184-3982\n\n\nGoogle Scholarscholar.google.com\n\n\nGitHubXuWeiEvo\n\n\nResearchGateWei-Xu-312"
+    "text": "I am always glad to hear about collaborations in macroecology, macroevolution, biogeography and conservation.\n\n\n\nE-mailxuwei.evo@gmail.com\n\n\nAffiliationTel Aviv University, Israel\n\n\nORCID0000-0002-4184-3982\n\n\nGoogle Scholarscholar.google.com\n\n\nGitHubXuWeiEvo\n\n\nResearchGateWei-Xu-312"
   },
   {
     "objectID": "DataCode.html",
     "href": "DataCode.html",
     "title": "Data and Code",
     "section": "",
-    "text": "Software, datasets and reproducible workflows from my research. Everything here is open and free to reuse — if something is missing or broken, please e-mail me.\nSoftware"
+    "text": "Software and reproducible workflows from my research. Everything here is open and free to reuse — if something is missing or broken, please e-mail me.\nSoftware"
   },
   {
     "objectID": "DataCode.html#biogeosyn",
     "href": "DataCode.html#biogeosyn",
     "title": "Data and Code",
     "section": "BioGeoSyn",
-    "text": "BioGeoSyn\nAn R package that wraps BioGeoBEARS in a step-by-step graphical interface, so that ancestral-range reconstruction and model comparison become reproducible — and comparable across clades.\n\n\n\nReproducible GUI\n\n\nA five-step wizard from data upload to results, with standardised output tables and publication-ready figures.\n\n\n\n\nCross-clade synthesis\n\n\nPools biogeographic event statistics across multiple groups: range expansion, speciation modes, vicariance and extinction.\n\n\n\n\nGuarded state space\n\n\nAutomated state-space monitoring and performance optimisation, so analyses fail fast instead of running for days.\n\n\n\n\nAdvanced constraints\n\n\nTime stratification, dispersal multipliers and area-adjacency matrices, all configurable from the interface.\n\n\n\n\nReports\n\n\nHTML and PDF report generation directly from a completed run.\n\n\n\n\nPortable bundles\n\n\nResult bundles that can be shared with collaborators or attached to a manuscript.\n\n\n\n\nInstall\nremotes::install_github(\"XuWeiEvo/BioGeoSyn\")\nBioGeoBEARS must be installed separately; the app ships with an environment checker that helps with setup.\n\n\nRun\nlibrary(BioGeoSyn)\nlaunch_app()          # interactive GUI\n# or, scripted:\nrun_workflow()\n\nGitHub repository Preprint (bioRxiv)\n\nCite as: Xu, W. & Wu, Y.-H. (2026). BioGeoSyn: a graphical software for reproducible biogeographic analyses and cross-clade synthesis of biogeographic events. bioRxiv. doi:10.64898/2026.07.21.739740\n\nDatasets"
-  },
-  {
-    "objectID": "DataCode.html#annonfruittraits-1.0",
-    "href": "DataCode.html#annonfruittraits-1.0",
-    "title": "Data and Code",
-    "section": "AnnonFruitTraits 1.0",
-    "text": "AnnonFruitTraits 1.0\nA comprehensive dataset of frugivory-related traits for Annonaceae species worldwide — fruit and seed morphology assembled to test how dispersal traits shape tropical rainforest diversity.\nCabral, A., Couvreur, T. L. P., Sauquet, H., Petrocelli, I., Rodrigues-Vaz, C., Lozinguez, A., Xu, W., Orellana-Vera, G. & Onstein, R. E. (2026). doi:10.21203/rs.3.rs-10084032/v1\n\nData behind the papers\n\nData and code for my papers are archived with the articles themselves — see each data-availability statement, for example:\n\nHidden hotspots of amphibian biodiversity in China — PNAS (2024). doi:10.1073/pnas.2320674121\nContrasting evolutionary trajectories of terrestrial vertebrates in the Hengduan Mountains hotspot — National Science Review (2025). doi:10.1093/nsr/nwaf157\nHerpetological phylogeographic analyses support a Miocene focal point of Himalayan uplift — National Science Review (2021). doi:10.1093/nsr/nwaa263\n\nThe full list is on the Publications page."
+    "text": "BioGeoSyn\nAn R package that wraps BioGeoBEARS in a step-by-step graphical interface, so that ancestral-range reconstruction and model comparison become reproducible — and comparable across clades.\n\n\n\nReproducible GUI\n\n\nA five-step wizard from data upload to results, with standardised output tables and publication-ready figures.\n\n\n\n\nCross-clade synthesis\n\n\nPools biogeographic event statistics across multiple groups: range expansion, speciation modes, vicariance and extinction.\n\n\n\n\nGuarded state space\n\n\nAutomated state-space monitoring and performance optimisation, so analyses fail fast instead of running for days.\n\n\n\n\nAdvanced constraints\n\n\nTime stratification, dispersal multipliers and area-adjacency matrices, all configurable from the interface.\n\n\n\n\nReports\n\n\nHTML and PDF report generation directly from a completed run.\n\n\n\n\nPortable bundles\n\n\nResult bundles that can be shared with collaborators or attached to a manuscript.\n\n\n\n\nInstall\nremotes::install_github(\"XuWeiEvo/BioGeoSyn\")\nBioGeoBEARS must be installed separately; the app ships with an environment checker that helps with setup.\n\n\nRun\nlibrary(BioGeoSyn)\nlaunch_app()          # interactive GUI\n# or, scripted:\nrun_workflow()\n\nGitHub repository Preprint (bioRxiv)\n\nCite as: Xu, W. & Wu, Y.-H. (2026). BioGeoSyn: a graphical software for reproducible biogeographic analyses and cross-clade synthesis of biogeographic events. bioRxiv. doi:10.64898/2026.07.21.739740"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\nWei Xu徐伟\n",
     "section": "",
-    "text": "Macroevolution · Macroecology · Conservation\n\n\nWei Xu徐伟\n\n\nPostdoctoral researcher, Tel Aviv University, Israel\n\n\nI study how Earth history, climate and traits build the biodiversity we see today — from Himalayan amphibians to Malagasy rainforest trees — and how that knowledge becomes conservation on the ground.\n\n\n\nPhylogenetics\n\n\nBiogeography\n\n\nDiversity patterns\n\n\nTrait evolution\n\n\nMountains\n\n\nTropical rainforest\n\n\nConservation planning\n\n\n\nPublications CV Software & data E-mail\n\n\n\n\nIn numbers\n\n\n\n16Publications\n\n\n517Citations\n\n\n8h-index\n\n\n4Countries worked in\n\n\n\nWhat I work on\n\n\n\n\nMountains as diversity engines\n\n\nHow uplift and climate history shaped the Himalaya, the Qinghai–Tibetan Plateau and the Hengduan Mountains — and why different vertebrate groups answered the same geology in different ways.\n\n\n\n\nHidden biodiversity\n\n\nCryptic species quietly redraw the map of what needs protecting. Genome-wide data reveal hotspots that species lists alone never showed.\n\n\n\n\nTraits in tropical rainforests\n\n\nFunctional and phylogenetic diversity in Annonaceae: frugivory traits, Madagascar’s endemic flora, and what they imply for conservation.\n\n\n\n\nReproducible biogeography\n\n\nBuilding tools — such as BioGeoSyn — so biogeographic inference is repeatable and comparable across clades, not bespoke per study.\n\n\n\n\nSelected recent work\n\n\n\nbioRxiv 2026BioGeoSyn — a graphical software for reproducible biogeographic analyses and cross-clade synthesis. GitHub\n\n\nScience 2026Stop the biodiversity sampling arms race.\n\n\nBiol. Conserv. 2026Diversity, distribution and conservation of Annonaceae in Madagascar.\n\n\nProc. B 2025Earth history and trait innovation drive the global radiation of modern toads.\n\n\nPNAS 2024Hidden hotspots of amphibian biodiversity in China.\n\n\n\nElsewhere\n\n\nORCID Google Scholar GitHub ResearchGate"
+    "text": "Macroevolution · Macroecology · Conservation\n\n\nWei Xu徐伟\n\n\nPostdoctoral researcher, Tel Aviv University, Israel\n\n\nI study how Earth history, climate and traits build the biodiversity we see today — from Himalayan amphibians to Malagasy rainforest trees — and how that knowledge becomes conservation on the ground.\n\n\n\nPhylogenetics\n\n\nBiogeography\n\n\nDiversity patterns\n\n\nTrait evolution\n\n\nMountains\n\n\nTropical rainforest\n\n\nConservation planning\n\n\n\n\n\nBibliometrics\n\n\n\n16Publications\n\n\n517Citations\n\n\n8h-index\n\n\n\nWhat I work on\n\n\n\n\nMountains as diversity engines\n\n\nHow uplift and climate history shaped the Himalaya, the Qinghai–Tibetan Plateau and the Hengduan Mountains — and why different vertebrate groups answered the same geology in different ways.\n\n\n\n\nLarge-scale conservation\n\n\nTranslating macroecological and phylogenetic evidence into conservation priorities at national and continental scale — as in our PNAS study revealing the hidden hotspots of amphibian biodiversity in China.\n\n\n\n\nTrait diversity and evolution\n\n\nHow functional traits originate, diversify and drive radiations: frugivory-related traits across the global Annonaceae of tropical rainforests, and the trait innovations behind the worldwide radiation of modern toads.\n\n\n\n\nTheory\n\n\nDeveloping the conceptual side of macroevolution and macroecology — the theory that the tools should rest on. Work in progress; nothing published yet.\n\n\n\n\nSoftware development\n\n\nBuilding open tools for macroevolution and macroecology, starting with BioGeoSyn — making biogeographic inference reproducible and comparable across clades — with more to come.\n\n\n\n\nSelected recent work\n\n\n\nbioRxiv 2026BioGeoSyn — a graphical software for reproducible biogeographic analyses and cross-clade synthesis.\n\n\nScience 2026Stop the biodiversity sampling arms race.\n\n\nBiol. Conserv. 2026Diversity, distribution and conservation of Annonaceae in Madagascar.\n\n\nProc. B 2025Earth history and trait innovation drive the global radiation of modern toads.\n\n\nPNAS 2024Hidden hotspots of amphibian biodiversity in China."
   }
 ]

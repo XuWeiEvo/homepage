@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -243,8 +243,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Wei Xu | 徐伟</span>
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./favicon.svg" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -278,23 +278,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/XuWeiEvo"> <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?hl=en&amp;user=YOxNTyAAAAAJ"> <i class="bi bi-mortarboard-fill" role="img" aria-label="Google Scholar">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:xuwei.evo@gmail.com"> <i class="bi bi-envelope" role="img" aria-label="E-mail">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -306,9 +289,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
@@ -356,13 +337,10 @@ Tropical rainforest
 Conservation planning
 </li>
 </ul>
-<div class="wx-actions">
-<a class="wx-btn wx-btn-solid" href="publications.html">Publications</a> <a class="wx-btn" href="cv.html">CV</a> <a class="wx-btn" href="DataCode.html">Software &amp; data</a> <a class="wx-btn" href="mailto:xuwei.evo@gmail.com">E-mail</a>
-</div>
 </div>
 </section>
 <p class="wx-section-label">
-In numbers
+Bibliometrics
 </p>
 <div class="wx-metrics">
 <div>
@@ -373,9 +351,6 @@ In numbers
 </div>
 <div>
 <span class="wx-metric-v">8</span><span class="wx-metric-k">h-index</span>
-</div>
-<div>
-<span class="wx-metric-v">4</span><span class="wx-metric-k">Countries worked in</span>
 </div>
 </div>
 <p class="wx-section-label">
@@ -392,26 +367,34 @@ How uplift and climate history shaped the Himalaya, the Qinghai–Tibetan Platea
 </div>
 <div class="wx-card">
 <h3 class="anchored">
-Hidden biodiversity
+Large-scale conservation
 </h3>
 <p>
-Cryptic species quietly redraw the map of what needs protecting. Genome-wide data reveal hotspots that species lists alone never showed.
+Translating macroecological and phylogenetic evidence into conservation priorities at national and continental scale — as in our <em>PNAS</em> study revealing the hidden hotspots of amphibian biodiversity in China.
 </p>
 </div>
 <div class="wx-card">
 <h3 class="anchored">
-Traits in tropical rainforests
+Trait diversity and evolution
 </h3>
 <p>
-Functional and phylogenetic diversity in Annonaceae: frugivory traits, Madagascar’s endemic flora, and what they imply for conservation.
+How functional traits originate, diversify and drive radiations: frugivory-related traits across the global Annonaceae of tropical rainforests, and the trait innovations behind the worldwide radiation of modern toads.
 </p>
 </div>
 <div class="wx-card">
 <h3 class="anchored">
-Reproducible biogeography
+Theory
 </h3>
 <p>
-Building tools — such as <a href="DataCode.html">BioGeoSyn</a> — so biogeographic inference is repeatable and comparable across clades, not bespoke per study.
+Developing the conceptual side of macroevolution and macroecology — the theory that the tools should rest on. Work in progress; nothing published yet.
+</p>
+</div>
+<div class="wx-card">
+<h3 class="anchored">
+Software development
+</h3>
+<p>
+Building open tools for macroevolution and macroecology, starting with <a href="DataCode.html">BioGeoSyn</a> — making biogeographic inference reproducible and comparable across clades — with more to come.
 </p>
 </div>
 </div>
@@ -420,7 +403,7 @@ Selected recent work
 </p>
 <ul class="wx-highlights">
 <li>
-<span class="wx-venue">bioRxiv 2026</span><span><strong>BioGeoSyn</strong> — a graphical software for reproducible biogeographic analyses and cross-clade synthesis. <a href="https://github.com/XuWeiEvo/BioGeoSyn">GitHub</a></span>
+<span class="wx-venue">bioRxiv 2026</span><span><strong>BioGeoSyn</strong> — a graphical software for reproducible biogeographic analyses and cross-clade synthesis.</span>
 </li>
 <li>
 <span class="wx-venue">Science 2026</span><span>Stop the biodiversity sampling arms race.</span>
@@ -435,12 +418,6 @@ Selected recent work
 <span class="wx-venue">PNAS 2024</span><span>Hidden hotspots of amphibian biodiversity in China.</span>
 </li>
 </ul>
-<p class="wx-section-label">
-Elsewhere
-</p>
-<div class="wx-actions">
-<p><a class="wx-btn" href="https://orcid.org/0000-0002-4184-3982">ORCID</a> <a class="wx-btn" href="https://scholar.google.com/citations?hl=en&amp;user=YOxNTyAAAAAJ">Google Scholar</a> <a class="wx-btn" href="https://github.com/XuWeiEvo">GitHub</a> <a class="wx-btn" href="https://www.researchgate.net/profile/Wei-Xu-312">ResearchGate</a></p>
-</div>
 
 
 

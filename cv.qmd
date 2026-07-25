@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Curriculum Vitae"
 toc: true
 toc-depth: 2
@@ -9,13 +9,6 @@ Evolutionary biologist working across phylogenetics, biogeography and conservati
 from fieldwork on the Qinghai–Tibetan Plateau to global-scale analyses of tropical
 plants.
 :::
-
-<div class="wx-actions">
-  <a class="wx-btn wx-btn-solid" href="mailto:xuwei.evo@gmail.com">xuwei.evo@gmail.com</a>
-  <a class="wx-btn" href="https://orcid.org/0000-0002-4184-3982">ORCID</a>
-  <a class="wx-btn" href="https://scholar.google.com/citations?hl=en&amp;user=YOxNTyAAAAAJ">Google Scholar</a>
-  <a class="wx-btn" href="https://github.com/XuWeiEvo">GitHub</a>
-</div>
 
 ## Appointments
 
@@ -61,54 +54,10 @@ biodiversity analysis.
 
 ## Bibliometrics
 
-<div class="wx-metrics">
-  <div><span class="wx-metric-v">517</span><span class="wx-metric-k">Citations</span></div>
-  <div><span class="wx-metric-v">8</span><span class="wx-metric-k">h-index</span></div>
-  <div><span class="wx-metric-v">7</span><span class="wx-metric-k">i10-index</span></div>
-</div>
-
 Publications in *Science*, *PNAS*, *Current Biology*, *National Science Review*,
 *Proceedings of the Royal Society B*, *Conservation Biology* and *Biological
 Conservation*, including one **ESI Highly Cited Paper** (Web of Science).
 See the [Publications](publications.qmd) page.
-
-## Skills
-
-- **Comparative and spatial analysis** — integrative phylogenetic approaches,
-  spatial methods and large datasets (distribution, molecular, ecological and trait
-  data) applied to fundamental questions in evolutionary biology: diversity patterns
-  at large geographic scales, species distribution modelling, mega-phylogeny
-  reconstruction, biogeographic history, population genetics.
-- **Scientific software** — development of research software for biogeography,
-  including [BioGeoSyn](DataCode.qmd).
-- **Computing** — R, Perl, Linux / HPC, ArcGIS.
-- **Laboratory** — DNA extraction, PCR and related molecular techniques.
-
-## Fieldwork
-
-<ul class="wx-timeline">
-  <li>
-  <span class="wx-when">2016 — 2018</span>
-  <span class="wx-what">Qinghai–Tibetan Plateau, China</span>
-  <span class="wx-where">Northern and southwestern plateau; collecting amphibians and reptiles</span>
-  </li>
-  <li>
-  <span class="wx-when">2018</span>
-  <span class="wx-what">Huangshan Mountains, China</span>
-  <span class="wx-where">Collecting amphibians</span>
-  </li>
-  <li>
-  <span class="wx-when">2017</span>
-  <span class="wx-what">Chitwan National Park, Nepal</span>
-  <span class="wx-where">Collecting amphibians and reptiles</span>
-  </li>
-</ul>
-
-## Supervision and training
-
-- **2022** — Co-supervision of two PhD students.
-- **2018** — Molecular experiment training, Sino-Africa Joint Research Center,
-  Chinese Academy of Sciences, Nairobi, Kenya.
 
 ## Plenary and keynote presentations
 
