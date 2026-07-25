@@ -70,39 +70,25 @@
     "text": "2018\n\nYan, F., Lü, J., Zhang, B., Yuan, Z., Zhao, H., Huang, S., Wei, G., Mi, X., Zou, D., Xu, W., et al. (2018). The Chinese giant salamander exemplifies the hidden extinction of cryptic species. Current Biology, 28(10), R590–R592. doi:10.1016/j.cub.2018.04.004"
   },
   {
-    "objectID": "global-biodiversity.html",
-    "href": "global-biodiversity.html",
-    "title": "Global Biodiversity Database Inventory",
+    "objectID": "DataCode.html",
+    "href": "DataCode.html",
+    "title": "Data and Code",
     "section": "",
-    "text": "A working inventory of the databases I use most for large-scale biodiversity analysis. Suggestions welcome — e-mail me."
+    "text": "Software and reproducible workflows from my research. Everything here is open and free to reuse — if something is missing or broken, please e-mail me.\nSoftware"
   },
   {
-    "objectID": "global-biodiversity.html#occurrence-and-distribution",
-    "href": "global-biodiversity.html#occurrence-and-distribution",
-    "title": "Global Biodiversity Database Inventory",
-    "section": "Occurrence and distribution",
-    "text": "Occurrence and distribution\n\n\n\nDatabase\nLink\nNotes\n\n\n\n\nGBIF\nhttps://www.gbif.org\n全球生物多样性信息设施；occurrence records across all taxa\n\n\nIUCN Red List\nhttps://www.iucnredlist.org\n受威胁物种评估与专家分布图\n\n\nMap of Life\nhttps://mol.org\nIntegrated range maps and species-level distribution products"
+    "objectID": "DataCode.html#biogeosyn",
+    "href": "DataCode.html#biogeosyn",
+    "title": "Data and Code",
+    "section": "BioGeoSyn",
+    "text": "BioGeoSyn\nAn R package that wraps BioGeoBEARS in a step-by-step graphical interface, so that ancestral-range reconstruction and model comparison become reproducible — and comparable across clades.\n\n\n\nReproducible GUI\n\n\nA five-step wizard from data upload to results, with standardised output tables and publication-ready figures.\n\n\n\n\nCross-clade synthesis\n\n\nPools biogeographic event statistics across multiple groups: range expansion, speciation modes, vicariance and extinction.\n\n\n\n\nGuarded state space\n\n\nAutomated state-space monitoring and performance optimisation, so analyses fail fast instead of running for days.\n\n\n\n\nAdvanced constraints\n\n\nTime stratification, dispersal multipliers and area-adjacency matrices, all configurable from the interface.\n\n\n\n\nReports\n\n\nHTML and PDF report generation directly from a completed run.\n\n\n\n\nPortable bundles\n\n\nResult bundles that can be shared with collaborators or attached to a manuscript.\n\n\n\n\nInstall\nremotes::install_github(\"XuWeiEvo/BioGeoSyn\")\nBioGeoBEARS must be installed separately; the app ships with an environment checker that helps with setup.\n\n\nRun\nlibrary(BioGeoSyn)\nlaunch_app()          # interactive GUI\n# or, scripted:\nrun_workflow()\n\nGitHub repository Preprint (bioRxiv)\n\nCite as: Xu, W. & Wu, Y.-H. (2026). BioGeoSyn: a graphical software for reproducible biogeographic analyses and cross-clade synthesis of biogeographic events. bioRxiv. doi:10.64898/2026.07.21.739740"
   },
   {
-    "objectID": "global-biodiversity.html#taxonomy-and-checklists",
-    "href": "global-biodiversity.html#taxonomy-and-checklists",
-    "title": "Global Biodiversity Database Inventory",
-    "section": "Taxonomy and checklists",
-    "text": "Taxonomy and checklists\n\n\n\nDatabase\nLink\nNotes\n\n\n\n\nNCBI Taxonomy\nhttps://www.ncbi.nlm.nih.gov/taxonomy\n物种分类数据库，与序列数据相连\n\n\nCatalogue of Life\nhttps://www.catalogueoflife.org\nConsensus global species checklist\n\n\nPOWO\nhttps://powo.science.kew.org\nPlants of the World Online (Kew)"
-  },
-  {
-    "objectID": "global-biodiversity.html#herpetology",
-    "href": "global-biodiversity.html#herpetology",
-    "title": "Global Biodiversity Database Inventory",
-    "section": "Herpetology",
-    "text": "Herpetology\n\n\n\nDatabase\nLink\nNotes\n\n\n\n\nAmphibiaChina\nhttps://www.amphibiachina.org/\n中国两栖类\n\n\nAmphibiaWeb\nhttps://amphibiaweb.org\nGlobal amphibian accounts and taxonomy\n\n\nThe Reptile Database\nhttps://reptile-database.reptarium.cz\nGlobal reptile taxonomy"
-  },
-  {
-    "objectID": "global-biodiversity.html#traits-and-phylogenies",
-    "href": "global-biodiversity.html#traits-and-phylogenies",
-    "title": "Global Biodiversity Database Inventory",
-    "section": "Traits and phylogenies",
-    "text": "Traits and phylogenies\n\n\n\nDatabase\nLink\nNotes\n\n\n\n\nTRY\nhttps://www.try-db.org\nGlobal plant trait database\n\n\nOpen Tree of Life\nhttps://tree.opentreeoflife.org\nSynthetic tree of life and source phylogenies\n\n\nTreeBASE\nhttps://www.treebase.org\nArchived published phylogenies and matrices"
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am always glad to hear about collaborations in macroecology, macroevolution, biogeography and conservation.\n\n\n\nE-mailxuwei.evo@gmail.com\n\n\nAffiliationTel Aviv University, Israel\n\n\nORCID0000-0002-4184-3982\n\n\nGoogle Scholarscholar.google.com\n\n\nGitHubXuWeiEvo\n\n\nResearchGateWei-Xu-312"
   },
   {
     "objectID": "cv.html",
@@ -145,27 +131,6 @@
     "title": "Curriculum Vitae",
     "section": "Plenary and keynote presentations",
     "text": "Plenary and keynote presentations\n\n\nJuly 2024 XX International Botanical Congress Functional trait, diversity patterns and conservation of Annonaceae: a representative of tropical rain forests\n\n\nAugust 2021 2nd AsiaEvo Conference Reptiles and amphibians record the complex history of the Himalaya\n\n\nAugust 2019 24th Annual Meeting, China Zoological Society Genome-wide data unveil the true landscape of biodiversity masked by cryptic species: Asian horned toads (Megophryidae) in southeast China"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "I am always glad to hear about collaborations in macroecology, macroevolution, biogeography and conservation.\n\n\n\nE-mailxuwei.evo@gmail.com\n\n\nAffiliationTel Aviv University, Israel\n\n\nORCID0000-0002-4184-3982\n\n\nGoogle Scholarscholar.google.com\n\n\nGitHubXuWeiEvo\n\n\nResearchGateWei-Xu-312"
-  },
-  {
-    "objectID": "DataCode.html",
-    "href": "DataCode.html",
-    "title": "Data and Code",
-    "section": "",
-    "text": "Software and reproducible workflows from my research. Everything here is open and free to reuse — if something is missing or broken, please e-mail me.\nSoftware"
-  },
-  {
-    "objectID": "DataCode.html#biogeosyn",
-    "href": "DataCode.html#biogeosyn",
-    "title": "Data and Code",
-    "section": "BioGeoSyn",
-    "text": "BioGeoSyn\nAn R package that wraps BioGeoBEARS in a step-by-step graphical interface, so that ancestral-range reconstruction and model comparison become reproducible — and comparable across clades.\n\n\n\nReproducible GUI\n\n\nA five-step wizard from data upload to results, with standardised output tables and publication-ready figures.\n\n\n\n\nCross-clade synthesis\n\n\nPools biogeographic event statistics across multiple groups: range expansion, speciation modes, vicariance and extinction.\n\n\n\n\nGuarded state space\n\n\nAutomated state-space monitoring and performance optimisation, so analyses fail fast instead of running for days.\n\n\n\n\nAdvanced constraints\n\n\nTime stratification, dispersal multipliers and area-adjacency matrices, all configurable from the interface.\n\n\n\n\nReports\n\n\nHTML and PDF report generation directly from a completed run.\n\n\n\n\nPortable bundles\n\n\nResult bundles that can be shared with collaborators or attached to a manuscript.\n\n\n\n\nInstall\nremotes::install_github(\"XuWeiEvo/BioGeoSyn\")\nBioGeoBEARS must be installed separately; the app ships with an environment checker that helps with setup.\n\n\nRun\nlibrary(BioGeoSyn)\nlaunch_app()          # interactive GUI\n# or, scripted:\nrun_workflow()\n\nGitHub repository Preprint (bioRxiv)\n\nCite as: Xu, W. & Wu, Y.-H. (2026). BioGeoSyn: a graphical software for reproducible biogeographic analyses and cross-clade synthesis of biogeographic events. bioRxiv. doi:10.64898/2026.07.21.739740"
   },
   {
     "objectID": "index.html",

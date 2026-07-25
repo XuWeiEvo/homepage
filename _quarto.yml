@@ -20,8 +20,6 @@ website:
         href: DataCode.qmd
       - text: "CV"
         href: cv.qmd
-      - text: "Databases"
-        href: global-biodiversity.qmd
       - text: "Contact"
         href: contact.qmd
   page-footer:
