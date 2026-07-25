@@ -430,6 +430,12 @@ main.content {
 .wx-legend .wx-corr {
   vertical-align: baseline;
   font-size: 0.85em;
+  margin-left: 0;
+}
+
+.wx-legend-sep {
+  margin: 0 0.5rem;
+  opacity: 0.5;
 }
 
 .wx-flag {

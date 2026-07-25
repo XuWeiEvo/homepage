@@ -52,13 +52,6 @@ responses to climate change; phylogenetic and functional diversity; the
 biogeography of mountains and tropical rainforests; reproducible large-scale
 biodiversity analysis.
 
-## Bibliometrics
-
-Publications in *Science*, *PNAS*, *Current Biology*, *National Science Review*,
-*Proceedings of the Royal Society B*, *Conservation Biology* and *Biological
-Conservation*, including one **ESI Highly Cited Paper** (Web of Science).
-See the [Publications](publications.qmd) page.
-
 ## Plenary and keynote presentations
 
 <ul class="wx-timeline">

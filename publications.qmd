@@ -5,10 +5,12 @@ toc-depth: 2
 ---
 
 ::: {.wx-lead}
-My name is set in **bold**.
+Publications in *Science*, *PNAS*, *Current Biology*, *National Science Review*,
+*Proceedings of the Royal Society B*, *Conservation Biology* and *Biological
+Conservation*, including one **ESI Highly Cited Paper** (Web of Science).
 :::
 
-<p class="wx-legend"><i class="bi bi-envelope-fill wx-corr"></i> corresponding author</p>
+<p class="wx-legend">My name is set in <strong>bold</strong>.<span class="wx-legend-sep">·</span><i class="bi bi-envelope-fill wx-corr"></i> corresponding author</p>
 
 ::: {.wx-pubs}
 
