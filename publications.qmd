@@ -5,15 +5,8 @@ toc-depth: 2
 ---
 
 ::: {.wx-lead}
-My name is set in **bold**. Bibliometrics as of July 2026.
+My name is set in **bold**.
 :::
-
-<div class="wx-metrics">
-  <div><span class="wx-metric-v">517</span><span class="wx-metric-k">Citations</span></div>
-  <div><span class="wx-metric-v">8</span><span class="wx-metric-k">h-index</span></div>
-  <div><span class="wx-metric-v">7</span><span class="wx-metric-k">i10-index</span></div>
-  <div><span class="wx-metric-v">1</span><span class="wx-metric-k">ESI highly cited</span></div>
-</div>
 
 ::: {.wx-pubs}
 
