@@ -46,6 +46,8 @@ pagetitle: "Wei Xu | 徐伟"
 </svg>
 
 <div class="wx-hero-inner">
+<img class="wx-portrait" src="media/wei-xu.jpg" alt="Portrait of Wei Xu" width="413" height="531">
+<div class="wx-hero-text">
   <p class="wx-eyebrow">Macroevolution · Macroecology · Conservation</p>
   <h1 class="wx-name">Wei Xu<span class="wx-cn">徐伟</span></h1>
   <p class="wx-role">Postdoctoral researcher, <strong>Tel Aviv University</strong>, Israel</p>
@@ -55,6 +57,7 @@ pagetitle: "Wei Xu | 徐伟"
    <li>Trait evolution</li><li>Mountains</li><li>Tropical rainforest</li>
    <li>Conservation planning</li>
   </ul>
+</div>
 </div>
 </section>
 
